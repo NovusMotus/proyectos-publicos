@@ -1,0 +1,17 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Lámina de personajes</title>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.186.1/build/three.module.js"}}</script>
+<style>body{margin:0;background:#fffbe8} canvas{display:block}</style></head><body>
+<script type="module">
+import { makeTipos, buildIbanezAtlas, AVATAR } from './js/personajes.js';
+const lista = [AVATAR, ...makeTipos(11)];
+const a = buildIbanezAtlas(lista);
+// lámina: cada personaje en 3 vistas, fotograma 0 y 1
+const W = 96, H = 168, out = document.createElement('canvas'); out.width = 6 * W * 2 + 40; out.height = Math.ceil(lista.length / 2) * H;
+const ctx = out.getContext('2d'); ctx.fillStyle = '#fffbe8'; ctx.fillRect(0, 0, out.width, out.height);
+lista.forEach((v, i) => {
+  const bx = (i % 2) * 12, by = Math.floor(i / 2);
+  const cells = [[0,0],[0,1],[1,0],[2,0],[2,1],[2,2]];
+  cells.forEach(([d, f], k) => ctx.drawImage(a.canvas, (bx + d * 4 + f) * W, by * H, W, H, (i % 2) * (6 * W + 40) + k * W, by * H, W, H));
+});
+document.body.appendChild(out);
+</script></body></html>

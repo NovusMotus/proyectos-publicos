@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+node_modules/
+.venv/
+__pycache__/
+private-runtime/
+.wrangler/
+.openai/
+.obsidian/workspace*.json

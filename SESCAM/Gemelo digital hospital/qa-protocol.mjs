@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {items,practiceItems,searchItems} from './dist/catalog.mjs';
+const get=id=>items.find(i=>i.id===id);
+assert.equal(items.length,69);
+assert.equal(new Set(items.map(i=>i.id)).size,items.length);
+assert.equal(get('ambu').location,'d5');
+assert.equal(get('tape-silk').location,'d3');assert.equal(get('tape-plastic').location,'d3');
+assert.equal(get('ambu').observation.location,'top');assert.match(get('ambu').note,/Cardiología/);
+assert.equal(items.filter(i=>i.id.startsWith('drug-')).length,13);
+assert.equal(items.filter(i=>i.location==='fluids').length,5);
+assert.ok(practiceItems.every(i=>i.evidence==='protocol'&&/^d[1-5]$/.test(i.location)));
+assert.ok(!practiceItems.some(i=>['sharps','bag','defib','board','syringe-air','syringes','syringe-ng'].includes(i.id)));
+for(const id of ['documents','lubricant','gel','microdrip','stylet','collector','suction','t-piece','gloves','sterile-gloves','gauze','compresses'])assert.ok(get(id));
+assert.ok(items.filter(i=>i.evidence==='protocol').every(i=>i.sources[0].url.startsWith('https://www.chospab.es/')));
+assert.ok(searchItems('esparadrapo').every(i=>i.location==='d3'));
+assert.equal(searchItems('adrenalina')[0].location,'d1');
+assert.ok(!items.some(i=>/adenosina|noradrenalina|diazepam/i.test(i.name)));
+console.log('Protocolo: 69 fichas, 13 fármacos, 5 soluciones, Ambú/cintas, fuentes, cobertura y exclusiones correctas.');

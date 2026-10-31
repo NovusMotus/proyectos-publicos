@@ -1,0 +1,301 @@
+{
+  "date": "2026-10-31",
+  "status": "local_batch_not_approved",
+  "source_file_count": 71,
+  "source_hashes_preserved": true,
+  "source_git_history_imported": false,
+  "scope": "first batch from previous audited manifests;not a fresh audit of all projects",
+  "historical_models": "preserved in source metadata;never inferred from current author",
+  "files": [
+    {
+      "path": "One piece/run_extractor.bat",
+      "sha256": "bc4f3b9f05157bd115dbeb35f3f5f470a36ab2e6488e67858c1470f65508d53a"
+    },
+    {
+      "path": "SESCAM/Gemelo digital hospital/dist/app.mjs",
+      "sha256": "c5c7630ba168dc7bf0d56e12c83448c59a1caee3db73c2095e1b0401863450db"
+    },
+    {
+      "path": "SESCAM/Gemelo digital hospital/dist/catalog.mjs",
+      "sha256": "7a75ea15b82b99906e43c21fbee56eab54fe9bde9813f7920f42abf91f8b871b"
+    },
+    {
+      "path": "SESCAM/Gemelo digital hospital/dist/illustrations.mjs",
+      "sha256": "22306a0fad0688107a29768329d14463ad91c19d0fea335c305ca267f1393266"
+    },
+    {
+      "path": "SESCAM/Gemelo digital hospital/dist/interactive.css",
+      "sha256": "a5ed04c9517fed8dfa9928821e7da72d48d476867449042bcea473a7dc150507"
+    },
+    {
+      "path": "SESCAM/Gemelo digital hospital/dist/interactive.mjs",
+      "sha256": "fa684a1fd1c79890eacd6ea1c48b7ba05147e3f964ac6a1e60278e34fa5d4f59"
+    },
+    {
+      "path": "SESCAM/Gemelo digital hospital/dist/numbered-drawer.mjs",
+      "sha256": "bf68227e66aef050325a580f38312db03a80b0011ff0a2e2b78e51c473359bec"
+    },
+    {
+      "path": "SESCAM/Gemelo digital hospital/dist/photo-zones.mjs",
+      "sha256": "6c40082bf8fdde6bed1b64da2e040be6920c8a58e34dd842a9436f9136e80ef8"
+    },
+    {
+      "path": "SESCAM/Gemelo digital hospital/dist/styles.css",
+      "sha256": "2736e34805db01c38fa57001cb88919542a20ba851dc959b072c8f3943f46506"
+    },
+    {
+      "path": "SESCAM/Gemelo digital hospital/qa-protocol.mjs",
+      "sha256": "99444d6acf428c12dc8c144c022fd355eff3f931b07148951370faf0e6ac952a"
+    },
+    {
+      "path": "SmartHandover/postcss.config.js",
+      "sha256": "24ca546ca8918b28c796f2a06e417be70c0877e8de147ba87bc4e88f2ef71136"
+    },
+    {
+      "path": "SmartHandover/src/App.tsx",
+      "sha256": "b201cf2d8ec390d3ab4a7b47047a1cf85d9d02472a5ac692b6477c6a1ec90d54"
+    },
+    {
+      "path": "SmartHandover/src/components/BottomNav.tsx",
+      "sha256": "fda665b7e443665caec251f1284b9a4334e0561bd30d8d917859c8a20ff5396a"
+    },
+    {
+      "path": "SmartHandover/src/components/FloatingActions.tsx",
+      "sha256": "e2c46b5493a6ea58916f239f10151e768043eb2c2f4b3d76e0a72892495f6118"
+    },
+    {
+      "path": "SmartHandover/src/components/modals/ActionCompletionModal.tsx",
+      "sha256": "3613ed38a0f0ed6353c737dfcdd407661534295e8772308e4548d1e0b3574206"
+    },
+    {
+      "path": "SmartHandover/src/components/modals/RequestModal.tsx",
+      "sha256": "0001f25886338a19ea5e75a2682cb68510069f41817f47a88f9f7ba5421e0557"
+    },
+    {
+      "path": "SmartHandover/src/components/modals/TubeSelectionModal.tsx",
+      "sha256": "7748334eecc225c452b229c640796e62e0c32b0dde1fd58e1edb421dba0435d4"
+    },
+    {
+      "path": "SmartHandover/src/components/modals/UrgentRequestModal.tsx",
+      "sha256": "b6307b63f7a4594a004fd2229c9bc360786dc1fdc12af27f5788755c0f921171"
+    },
+    {
+      "path": "SmartHandover/src/db/db.ts",
+      "sha256": "1bd9ef4d8f49c5c33991918f8111d1948b48062dfd24f15789ca0c34e6e23d0e"
+    },
+    {
+      "path": "SmartHandover/src/index.css",
+      "sha256": "e94c75f6dea5875a6e904e3d47b4836c8035336c0db27d289412ce2f30af8a9e"
+    },
+    {
+      "path": "SmartHandover/src/lib/utils.ts",
+      "sha256": "ac6a1b098f6f0852d7fa1a05a2c793b19ed9a613fe3ec87e442fff469f0016e8"
+    },
+    {
+      "path": "SmartHandover/src/main.tsx",
+      "sha256": "3b892c8d9ee23a0135dc9eb7e1e952e6eb8ff7d7376b1bde1af0e6f00032e1bd"
+    },
+    {
+      "path": "SmartHandover/src/pages/AvisosScreen.tsx",
+      "sha256": "748b5805f50a4534b98318461690c50aa3d3e294857daa7cd28888132e1ddc3b"
+    },
+    {
+      "path": "SmartHandover/src/pages/CloseShiftScreen.tsx",
+      "sha256": "a46d651cbc00d6fdc8b48bfc4bd45217a995d82c7ca3404f477a153455c08cfc"
+    },
+    {
+      "path": "SmartHandover/src/pages/CodeBlueScreen.tsx",
+      "sha256": "639a3564bb93fe34b1b3825ec9d3beee4ceb8e67d8ec9325fd75b50d42fc7bd4"
+    },
+    {
+      "path": "SmartHandover/src/pages/KardexScreen.tsx",
+      "sha256": "eee59919fdcf0f01bb212c18edbe8bf41f22ef67e946bab2f58a6c673b1755ae"
+    },
+    {
+      "path": "SmartHandover/src/pages/LoginScreen.tsx",
+      "sha256": "2d015bd3824dc12ab6b710d5e0fd99c427afa9260bd9de6c7bb49e422989d5ef"
+    },
+    {
+      "path": "SmartHandover/src/pages/PendientesScreen.tsx",
+      "sha256": "8c8e3c4a4ef0f00b3c00233fa2a603a568974db995458044f7ebdd9581bfd6a5"
+    },
+    {
+      "path": "SmartHandover/src/pages/ProfileSetupScreen.tsx",
+      "sha256": "aafc7bbbbcb7f3e79cffd0a42600b8447d71a09c0d4459138a7c930251eb1648"
+    },
+    {
+      "path": "SmartHandover/src/pages/QRAccessScreen.tsx",
+      "sha256": "7397e751edb060cef62935462d12cde0ee0cf21a628659413fd03f2765c61165"
+    },
+    {
+      "path": "SmartHandover/src/pages/ShiftSetupScreen.tsx",
+      "sha256": "b19bdfd79d7c830fe6ed03053949ac25e5576804903e72a0e33405612843b432"
+    },
+    {
+      "path": "SmartHandover/src/pages/ShiftTimeScreen.tsx",
+      "sha256": "6c32acd9d7306160a47af37023c58d096c046b625ebd8c8102b22c51d0edeefa"
+    },
+    {
+      "path": "SmartHandover/src/pages/WelcomeCountScreen.tsx",
+      "sha256": "5385f09bfaf477b5fe141e8edcc428731c1ad0d01a3242a951643a265a0119a5"
+    },
+    {
+      "path": "SmartHandover/src/pages/WelcomeLegalScreen.tsx",
+      "sha256": "311879bfc0f7b6202a3f5d41d11b8b101c09535f423dff188b4772afa88dfd93"
+    },
+    {
+      "path": "SmartHandover/src/store/useAppStore.ts",
+      "sha256": "46125507d0ed02ad3acb6dc1e6aae0733f79c9975aa83e0600b280609cbf5800"
+    },
+    {
+      "path": "SmartHandover/src/types/actions.ts",
+      "sha256": "c5144184ad2c0741e9e1393340a44d192360a900a812e059d9ba93fe53b06289"
+    },
+    {
+      "path": "SmartHandover/src/types/notifications.ts",
+      "sha256": "55b96b4a334c0d88775ad1a07edb2fb62c5abb8e84ac4ff45e36b797a9041719"
+    },
+    {
+      "path": "SmartHandover/src/vite-env.d.ts",
+      "sha256": "dc4c879042d307e26a8c2de64b946080b2bf8d5d52402eb565855528ee78f983"
+    },
+    {
+      "path": "SmartHandover/tailwind.config.js",
+      "sha256": "2c9a646905ceb14e15436adacd055af24c30d55e0feb6568329665478cfe45d5"
+    },
+    {
+      "path": "SmartHandover/vite.config.ts",
+      "sha256": "28958bd12da41b2fea53e6578c867237805acba4389551de04c9a6215ae2ce33"
+    },
+    {
+      "path": "Videojuegos/proyecto-alma/arte/personajes/color.py",
+      "sha256": "45eb65098e2c1f4081f97cfd4b4f3929a8632953d272da319797f20788623858"
+    },
+    {
+      "path": "Videojuegos/proyecto-alma/arte/personajes/recortar.py",
+      "sha256": "571abc82c6bf74550f45743c29e518aafaabf8d6b040d183fa842eb554a65933"
+    },
+    {
+      "path": "Videojuegos/proyecto-alma/arte/personajes/recortar_croma.py",
+      "sha256": "52daebf8fbee37c493598af423392a2710c7e463c4d0913cf6ae22e390854a43"
+    },
+    {
+      "path": "Videojuegos/proyecto-alma/arte/personajes/recortar_hd.py",
+      "sha256": "173b8b818e05b122a23696e55d653c5ce9a512bc045d1211155f6b830be1ddd6"
+    },
+    {
+      "path": "Videojuegos/proyecto-alma/arte/sprites/carton.py",
+      "sha256": "8d41279698f2da0457853ca130fdd40cc83c06cc955e197d49b982d375c4ad4e"
+    },
+    {
+      "path": "novus motus/albacete-3d/pipeline/build_data.py",
+      "sha256": "c8ffaffc4c9c7ac6402e2ab6a16b9bf860d893e8464a8537aaaf8c77acacd62a"
+    },
+    {
+      "path": "novus motus/albacete-3d/pipeline/build_textos.py",
+      "sha256": "557b0a6131cc7d36ad967d208a933807a14d9f4172f0d68c84655f62129647cb"
+    },
+    {
+      "path": "novus motus/albacete-3d/pipeline/colores.py",
+      "sha256": "9aae99c9c524c25822ddb3b57844bcdb5d9f49bdd44cdf5a66dd86a02c037637"
+    },
+    {
+      "path": "novus motus/albacete-3d/pipeline/jccm_bares.py",
+      "sha256": "9f92aaf73c091252c5753684d5058682342ea9027325376c33039f8dff843779"
+    },
+    {
+      "path": "novus motus/albacete-3d/pipeline/mobiliario.py",
+      "sha256": "16ad1ccc06bc7ac4c8061eb1ac980241e41127af36d9b8a68c595b983dc99e7f"
+    },
+    {
+      "path": "novus motus/albacete-3d/pipeline/ortofoto.py",
+      "sha256": "8e93fb4fc0622e67b64f9130f675d00390f9aa0013189f3fbb206105696831ec"
+    },
+    {
+      "path": "novus motus/albacete-3d/pipeline/padron.py",
+      "sha256": "dfb5161048a0fcc23ec2ba9e7e90f11c45d36b9a18241937d28000ab5c52ef1a"
+    },
+    {
+      "path": "novus motus/albacete-3d/pipeline/paletas_bajos.py",
+      "sha256": "a3a088e45d0f6343963b11dff8a4d0948995f40189a75435f557ad9dbdff003d"
+    },
+    {
+      "path": "novus motus/albacete-3d/pipeline/sprites_gpt.py",
+      "sha256": "6d46a47da0f2626bb4dbfe00db4aae3ca9eb555eb3bc43d41f3b4418f8f8d46c"
+    },
+    {
+      "path": "novus motus/albacete-3d/pipeline/texturas.py",
+      "sha256": "940543305d06dfcc1988aa66f30f0a671069867b954c9ef0a85379884bbec019"
+    },
+    {
+      "path": "novus motus/albacete-3d/pipeline/verificar.py",
+      "sha256": "3c23937526f52b0d337038b238f83d4a879c49a73bd741d392abf80386d5b3f9"
+    },
+    {
+      "path": "novus motus/albacete-3d/web/dev_personajes.html",
+      "sha256": "326e416f8876bc43993b1109607e13219c56a80874bbb140fc99bb06083e4852"
+    },
+    {
+      "path": "novus motus/albacete-3d/web/index.html",
+      "sha256": "9cbb3873193b4aba747d6c1bdd7214cca1ab3c68686e80a5bcb93c59e9768fc7"
+    },
+    {
+      "path": "novus motus/albacete-3d/web/js/detail.js",
+      "sha256": "2555700e6cd9f8288c58b857d21d2432a0c70b1bae51181185d958eb12a06064"
+    },
+    {
+      "path": "novus motus/albacete-3d/web/js/people.js",
+      "sha256": "140b636c4d57cbe6b85b5c385ac7fa02bcfa5deb1a11a57bb9b6cc60e2b5e0b0"
+    },
+    {
+      "path": "novus motus/albacete-3d/web/js/personajes.js",
+      "sha256": "b4a45ecc76749a0676984cb0147544c223e7ad1166a9a83daf12d53361e1d340"
+    },
+    {
+      "path": "novus motus/albacete-3d/web/js/tebeo.js",
+      "sha256": "2f238ff2e88d25352d0be96df93145f2c70d024edca6bcb99dd6cb0f1868f342"
+    },
+    {
+      "path": "novus motus/albacete-3d/web/js/world.js",
+      "sha256": "b24761419c95f2d459697d084cacda6488012c86f98b7c06b34344309abacc15"
+    },
+    {
+      "path": "novus motus/albacete-3d/web/style.css",
+      "sha256": "e7347f1ca7ab312d61a3e3208c97f92b74f56de03931528a9e125659fc124214"
+    },
+    {
+      "path": "novus motus/jev-clinico/catalogo_especialidades/rae_cmbd/cobertura_especialidades.py",
+      "sha256": "776d9ad2e12044a40a452ed1777bff74366a95813dd71d520821c1ca01a48a88"
+    },
+    {
+      "path": "novus motus/jev-clinico/catalogo_especialidades/unir_especialidades.py",
+      "sha256": "04fedd796e78829eaa86529649ede8616afc90751001ae38c9625db7c676f94b"
+    },
+    {
+      "path": "novus motus/jev-clinico/cie10es/validar_cie10.py",
+      "sha256": "29f6a720754c6413e6bc97ee6115d8af22d412864173c0835929183683534af1"
+    },
+    {
+      "path": "novus motus/jev-clinico/datos/piloto_v02/muestrear_plan.py",
+      "sha256": "9d73f7507cb0842501cc16f1f8c0999fa90ce3e77cc928d79e91ea2b6318ab4a"
+    },
+    {
+      "path": "novus motus/jev-clinico/datos/piloto_v02/validar_casos.py",
+      "sha256": "bbbace16e948a38ce5bf850ac5ec84479f23dca4deb459069203f7ed3957064e"
+    },
+    {
+      "path": "novus motus/jev-clinico/demografia_rae.py",
+      "sha256": "22de7307f0239979ca199a20e1a3a2a0892793c0d757e56b1ee3b6d7227e29ba"
+    },
+    {
+      "path": "novus motus/jev-clinico/regenerar_todo.sh",
+      "sha256": "cea0329b0c2d2488f680fc6f1a9592c352ed1a55a47ed081bdc1e16c103142a4"
+    }
+  ],
+  "preparation": {
+    "tool": "Codex",
+    "provider": "OpenAI",
+    "model": "gpt-6.1-sol",
+    "basis": "runtime turn_context 2026-10-31T22:40:31.050Z"
+  }
+}

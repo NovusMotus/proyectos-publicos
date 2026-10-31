@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Albacete a escala</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600&family=Bangers&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.186.1/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.186.1/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+
+  <div id="loading">
+    <div class="card">
+      <h1>Albacete a escala</h1>
+      <p class="sub">Réplica navegable construida solo con datos abiertos verificables</p>
+      <div class="bar"><div id="load-bar"></div></div>
+      <p id="load-msg">Cargando…</p>
+    </div>
+  </div>
+
+  <header id="top">
+    <div class="brand">
+      <strong>Albacete a escala</strong>
+      <span class="demo">demo</span>
+    </div>
+    <nav>
+      <button data-panel="eventos">Eventos</button>
+      <button data-panel="tardeo">Tardeo</button>
+      <button id="btn-map">Mapa</button>
+      <button data-panel="hitos">Hitos</button>
+      <button data-panel="glosario">Habla</button>
+      <button data-panel="fuentes">Fuentes</button>
+      <button data-panel="ayuda">Ayuda</button>
+      <label class="sel">Estilo
+        <select id="sel-estilo">
+          <option value="tebeo">Tebeo</option>
+          <option value="anime">Anime</option>
+          <option value="pixel">Pixel</option>
+        </select>
+      </label>
+      <label class="sel">Escala
+        <select id="sel-scale">
+          <option value="1">1:1</option>
+          <option value="2">1:2</option>
+          <option value="3" selected>1:3</option>
+          <option value="5">1:5</option>
+        </select>
+      </label>
+      <button id="btn-time" title="Luz según la hora real de Albacete">Hora real</button>
+    </nav>
+  </header>
+
+  <div id="where">
+    <div id="street-name">—</div>
+    <div id="street-meta"></div>
+    <div id="weather" class="small"></div>
+  </div>
+
+  <aside id="panel" class="hidden">
+    <button class="close" aria-label="Cerrar">×</button>
+    <div id="panel-body"></div>
+  </aside>
+
+  <aside id="info" class="hidden">
+    <button class="close" aria-label="Cerrar">×</button>
+    <div id="info-body"></div>
+  </aside>
+
+  <div id="route-bar" class="hidden"></div>
+  <canvas id="minimap" width="200" height="200"></canvas>
+
+  <div id="bigmap" class="hidden">
+    <div class="bigmap-head">
+      <span>Mapa de Albacete · pulsa en un punto para ir allí andando o teletransportarte</span>
+      <button class="close" aria-label="Cerrar">×</button>
+    </div>
+    <canvas id="bigmap-canvas"></canvas>
+    <div id="bigmap-menu" class="hidden"></div>
+  </div>
+
+  <div id="actions">
+    <button id="btn-greet">Saludar (G)</button>
+    <button id="btn-view">Vista aérea (V)</button>
+    <button id="btn-pixel" title="Alternar estética pixel art">Pixel art</button>
+    <button id="btn-suelo" title="Ortofoto PNOA o plano de calles OSM">Suelo: foto aérea</button>
+  </div>
+
+  <div id="joystick" class="hidden"><div class="knob"></div></div>
+  <div id="toast"></div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
