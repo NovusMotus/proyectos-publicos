@@ -1,0 +1,50 @@
+{
+  "version": "2026-10-17-v9",
+  "date": "2026-10-17",
+  "status": "local_candidate_not_published",
+  "changes": [
+    "Replace slide-like intro with continuous 12-second deterministic motion design: rotating split capsule,orbiting rings,particle field,perspective floor,staggered project-image emergence,connection pulses and mosaic resolution",
+    "Kinetic typography and nine labelled areas;all motion driven by one clock with exact pause,resume,manual scenes and reduced-motion still frames",
+    "Actual same-scene DOM transform progression and frozen pause recorded;16 scene-size layouts checked,plus67 native screenshots of full playback ending in portfolio",
+    "Local animated GIF preview encoded from real browser screenshots;not served by web application",
+    "All82 public candidate dossiers,source attribution,graph and privacy boundaries retained;no publication"
+  ],
+  "implementation": {
+    "tool": "Codex",
+    "provider": "OpenAI",
+    "model": "gpt-6.1-sol",
+    "basis": "runtime turn_context 2026-10-17T19:35:43.946Z"
+  },
+  "annotations": {
+    "tool": "Codex subagent",
+    "model": "no_confirmado",
+    "basis": "Sin evidencia del identificador exacto en el agente extractor",
+    "user_review": "pending"
+  },
+  "review": {
+    "tool": "Codex independent subagent",
+    "model": "gpt-6-astra",
+    "scope": "Continuous timeline,rendering,pause/accessibility limits,source scope,tests and main-agent temporal/visual records;review/motion-v9-review.json",
+    "browser_check": "Main agent;within-scene time/transform sequences,frozen pause,16 scene-size cases and full12-second playback",
+    "limits": "Screenshot GIF is a sampled preview;not a smooth video export.No reduced-motion emulation,screen-reader or recruiter comprehension test.Full reverse-tab cycle not established."
+  },
+  "generation": {
+    "tool": "Codex CLI",
+    "model_default": "gpt-6.1-sol",
+    "model_source": "explicit_cli_model_argument",
+    "configurable": "PORTFOLIO_MODEL",
+    "per_response_attribution": true
+  },
+  "source_versions": "build_manifest.json",
+  "historical_thesis_attribution": "public-sources/*/TESIS.md, sección Herramientas; fechas y versiones en VERSION.json",
+  "publication_approved": false,
+  "previous_version": "2026-10-17-v8",
+  "previous_metadata_sha256": "584376bcda00a7f2c68aa65862f861133d8a470aaed0a4f6d54632d935cda22d",
+  "preview": {
+    "capture_tool": "Codex In-app Browser via CUA native screenshots",
+    "encoder": "Pillow 12.3.0",
+    "artifact": "review/presentacion-motion-v9.gif",
+    "sampling": "67 actual browser captures over12.7 seconds;GIF includes final portfolio hold",
+    "models": "No new generated images;existing conceptual illustrations retain their source attribution"
+  }
+}

@@ -1,0 +1,1674 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-01",
+  "public_thesis_commit": "edb493379be63d2e767572cb491efd8ed1e50119",
+  "source_projects": 82,
+  "files": [
+    {
+      "source": "clinicos/almacen-hospital/TESIS.md",
+      "destination": "public-sources/almacen-hospital/TESIS.md",
+      "sha256": "b68a91645b46b9e667bcf71691e8a91353e34b5510087fb5caff70c5af8d3a85"
+    },
+    {
+      "source": "clinicos/almacen-hospital/VERSION.json",
+      "destination": "public-sources/almacen-hospital/VERSION.json",
+      "sha256": "bfde0f8e55196e39ae6c686e3899cbca65aa3811da335a1098501253cc50da52"
+    },
+    {
+      "source": "clinicos/almacen-hospital/proyecto.png",
+      "destination": "public-sources/almacen-hospital/proyecto.png",
+      "sha256": "2f41748b532373b5f288eb8b53732caabebe1552858c4347c1549b1dae7c6505"
+    },
+    {
+      "source": "clinicos/auditoria-flujos-clinicos/TESIS.md",
+      "destination": "public-sources/auditoria-flujos-clinicos/TESIS.md",
+      "sha256": "6398b3eecbebe5f375317f82526cdc907f8e49c684232623411adeb574addb09"
+    },
+    {
+      "source": "clinicos/auditoria-flujos-clinicos/VERSION.json",
+      "destination": "public-sources/auditoria-flujos-clinicos/VERSION.json",
+      "sha256": "65d7c81ca6dcb5aad9cbf966f6e1574a830610dd73a46c0b2e9f3064787f2bd1"
+    },
+    {
+      "source": "clinicos/auditoria-flujos-clinicos/proyecto.png",
+      "destination": "public-sources/auditoria-flujos-clinicos/proyecto.png",
+      "sha256": "242d451c5d26872eabdfc6094b10808ab24ab4544ea13ce03a06693340e77bcd"
+    },
+    {
+      "source": "clinicos/auditoria-retrospectiva/TESIS.md",
+      "destination": "public-sources/auditoria-retrospectiva/TESIS.md",
+      "sha256": "fe4befe89bcefa68b1942b4a9405d76e618d8fbe5fbd468fc77a7b4c8d41f101"
+    },
+    {
+      "source": "clinicos/auditoria-retrospectiva/VERSION.json",
+      "destination": "public-sources/auditoria-retrospectiva/VERSION.json",
+      "sha256": "11df159b46d47c04acc1680bba31ac714687407e0547debffcaf0033e10d914c"
+    },
+    {
+      "source": "clinicos/auditoria-retrospectiva/proyecto.png",
+      "destination": "public-sources/auditoria-retrospectiva/proyecto.png",
+      "sha256": "790120aed8c2d9f9783f725cca840cce3008ff61e112444c8ea1c726ff9b635b"
+    },
+    {
+      "source": "clinicos/barrera-curas-sacras/TESIS.md",
+      "destination": "public-sources/barrera-curas-sacras/TESIS.md",
+      "sha256": "6d8faf6ef776864551e2bec0653164a4748bac2938e4cb113b69b366d83cbd6f"
+    },
+    {
+      "source": "clinicos/barrera-curas-sacras/VERSION.json",
+      "destination": "public-sources/barrera-curas-sacras/VERSION.json",
+      "sha256": "ff495b0945c1cd032ca71eefa54f93ac6851289ecf549f7d02f2a9f3da19fff1"
+    },
+    {
+      "source": "clinicos/barrera-curas-sacras/proyecto.png",
+      "destination": "public-sources/barrera-curas-sacras/proyecto.png",
+      "sha256": "8071f0c109d0de1e7f4d5a50fb858d9592b89b8f8f85f1797e3e406ee47aa6d8"
+    },
+    {
+      "source": "clinicos/carro-paradas/TESIS.md",
+      "destination": "public-sources/carro-paradas/TESIS.md",
+      "sha256": "8c9a63825bb7c2e4201342e96574c5180e734a631f6054d212a7e915c5f1c251"
+    },
+    {
+      "source": "clinicos/carro-paradas/VERSION.json",
+      "destination": "public-sources/carro-paradas/VERSION.json",
+      "sha256": "e9b10cb6c19873bea5bfca1094f65c824eebc1c7e8eeae4f315c9195c5ea5643"
+    },
+    {
+      "source": "clinicos/carro-paradas/proyecto.png",
+      "destination": "public-sources/carro-paradas/proyecto.png",
+      "sha256": "fd58e2556e6f8fbd907f66eca477c0a23adaeef45b58e714b5e0b19eb9e7a2ba"
+    },
+    {
+      "source": "clinicos/chiarezza/TESIS.md",
+      "destination": "public-sources/chiarezza/TESIS.md",
+      "sha256": "fc0c8651febc11bf8c9361232920ed31d9e03c6562f65473e49ac41a67d2d901"
+    },
+    {
+      "source": "clinicos/chiarezza/VERSION.json",
+      "destination": "public-sources/chiarezza/VERSION.json",
+      "sha256": "21b60669b9bbd5a07f52e07b990f8426d432dfbe9acbc9476f19de49033a22bd"
+    },
+    {
+      "source": "clinicos/chiarezza/proyecto.png",
+      "destination": "public-sources/chiarezza/proyecto.png",
+      "sha256": "fdbf19f7a288c9027d1c5566db106a3b72ca46895a7679d0fdce66d493a1db53"
+    },
+    {
+      "source": "clinicos/comision-ia/TESIS.md",
+      "destination": "public-sources/comision-ia/TESIS.md",
+      "sha256": "c70a0138f5de2b611e8acb7d2442bfff815694d26c0b660eac3f4072f1165405"
+    },
+    {
+      "source": "clinicos/comision-ia/VERSION.json",
+      "destination": "public-sources/comision-ia/VERSION.json",
+      "sha256": "30ceabac08f047034e55b45a06861f065a4082e43a8c477c0bc0eb30684e5b82"
+    },
+    {
+      "source": "clinicos/comision-ia/proyecto.png",
+      "destination": "public-sources/comision-ia/proyecto.png",
+      "sha256": "b8fe9ec4d96aea014725a551274326dd01f48bfea818f1beb70003b9a2ad1b52"
+    },
+    {
+      "source": "clinicos/ehr-interfaz/TESIS.md",
+      "destination": "public-sources/ehr-interfaz/TESIS.md",
+      "sha256": "85a79dec7c2277757b479320e456acc36ec1ee5ce39e45f579abcf62d492f46f"
+    },
+    {
+      "source": "clinicos/ehr-interfaz/VERSION.json",
+      "destination": "public-sources/ehr-interfaz/VERSION.json",
+      "sha256": "13d9742d9a315f7fcbef947be14863a903645d85cd34ccb36e04e25ac088e002"
+    },
+    {
+      "source": "clinicos/ehr-interfaz/proyecto.png",
+      "destination": "public-sources/ehr-interfaz/proyecto.png",
+      "sha256": "0a146c578f4b9ad70ec9428d99e6f3bff714606e047c1c2c0811491ea03b26ef"
+    },
+    {
+      "source": "clinicos/jev-clinico/TESIS.md",
+      "destination": "public-sources/jev-clinico/TESIS.md",
+      "sha256": "391e8ec1d9f47dda7ca933a153836e0c5cd132069ebfc036a6dbc0f08927839a"
+    },
+    {
+      "source": "clinicos/jev-clinico/VERSION.json",
+      "destination": "public-sources/jev-clinico/VERSION.json",
+      "sha256": "d78ec71813545941b6d719f05f8599b1b9a6cefc1f862469665e1bccfdd10584"
+    },
+    {
+      "source": "clinicos/jev-clinico/proyecto.png",
+      "destination": "public-sources/jev-clinico/proyecto.png",
+      "sha256": "c13510cb8cba0cf126e9b9c1375f62ca1bb179c0ccd0ac86557e50718e7783f2"
+    },
+    {
+      "source": "clinicos/orientacion-hospital/TESIS.md",
+      "destination": "public-sources/orientacion-hospital/TESIS.md",
+      "sha256": "a673ffc5690c211452130c36647e299b1c9785fb5173791aa649c77bf199ce22"
+    },
+    {
+      "source": "clinicos/orientacion-hospital/VERSION.json",
+      "destination": "public-sources/orientacion-hospital/VERSION.json",
+      "sha256": "26a7563bdea9f0d8ab147be1873074dc6c01e350abdc8ab7cfe73ac9acf6a01b"
+    },
+    {
+      "source": "clinicos/orientacion-hospital/proyecto.png",
+      "destination": "public-sources/orientacion-hospital/proyecto.png",
+      "sha256": "90bdc5d81d1a0c5981d95ce325eb0596413cc26aed11685251723c2c00db8187"
+    },
+    {
+      "source": "clinicos/smarthandover/TESIS.md",
+      "destination": "public-sources/smarthandover/TESIS.md",
+      "sha256": "a4658fa6f33ddc3be137f40ba91223ff4e03450e4c13c7f089948b742b1f1eec"
+    },
+    {
+      "source": "clinicos/smarthandover/VERSION.json",
+      "destination": "public-sources/smarthandover/VERSION.json",
+      "sha256": "331887da4dbce8def185c4b7dfcde56d8aa3b3a33bbeb8f793d596d0a6530a5b"
+    },
+    {
+      "source": "clinicos/smarthandover/proyecto.png",
+      "destination": "public-sources/smarthandover/proyecto.png",
+      "sha256": "5a254d7d03bab55e6e20d101e23f2a05fe509c41c6936ddcd43761929beb7e76"
+    },
+    {
+      "source": "clinicos/tfm-tecnologias-salud/TESIS.md",
+      "destination": "public-sources/tfm-tecnologias-salud/TESIS.md",
+      "sha256": "908456c3e612abb523e199b65c42a1f5e619fd6eb8fa6993f23da794174a9018"
+    },
+    {
+      "source": "clinicos/tfm-tecnologias-salud/VERSION.json",
+      "destination": "public-sources/tfm-tecnologias-salud/VERSION.json",
+      "sha256": "9ee028a7465426a2154eeb8a48a56ab35d6c8cce758ebbdf4356d91d2351e9b4"
+    },
+    {
+      "source": "clinicos/tfm-tecnologias-salud/proyecto.png",
+      "destination": "public-sources/tfm-tecnologias-salud/proyecto.png",
+      "sha256": "7a81a684fb72a704fa259eb534ce4bb2a531cd3dd6f7e52879f08b07582110ca"
+    },
+    {
+      "source": "creacion/analisis-cultural-editorial/TESIS.md",
+      "destination": "public-sources/analisis-cultural-editorial/TESIS.md",
+      "sha256": "207d807de4f517abf7184ee62774fcfbe27af68cf1fc0103e8cb82e8b49f2999"
+    },
+    {
+      "source": "creacion/analisis-cultural-editorial/VERSION.json",
+      "destination": "public-sources/analisis-cultural-editorial/VERSION.json",
+      "sha256": "f3a19625f878ef64a0c5c31887d0ca79eed5a05424c7225abe95969cc54dfbb8"
+    },
+    {
+      "source": "creacion/analisis-cultural-editorial/proyecto.png",
+      "destination": "public-sources/analisis-cultural-editorial/proyecto.png",
+      "sha256": "5cead92281a15100d2a6470f15d8c47f30a68a6b5f51e9888dd0439a7fc16979"
+    },
+    {
+      "source": "creacion/ciencia-perdida/TESIS.md",
+      "destination": "public-sources/ciencia-perdida/TESIS.md",
+      "sha256": "2116d33e2c0809c57f204095ac8ef7ff7bd6965501a320d6708d93b5d94e94ee"
+    },
+    {
+      "source": "creacion/ciencia-perdida/VERSION.json",
+      "destination": "public-sources/ciencia-perdida/VERSION.json",
+      "sha256": "982ce9abee1127d86ce6e6e79a9303498576ba41a6f31171b3c25ed49bf4c990"
+    },
+    {
+      "source": "creacion/ciencia-perdida/proyecto.png",
+      "destination": "public-sources/ciencia-perdida/proyecto.png",
+      "sha256": "f6d2766af6cf27f0fd64bed9a7b9e3c129b88690d2578b5cb5fcb5ec561dd755"
+    },
+    {
+      "source": "creacion/juegos-cartas-mecanicas/TESIS.md",
+      "destination": "public-sources/juegos-cartas-mecanicas/TESIS.md",
+      "sha256": "35069d5e5f76e5ad98d028a99155994615add9a86ae5caa5ea1d5deae387de51"
+    },
+    {
+      "source": "creacion/juegos-cartas-mecanicas/VERSION.json",
+      "destination": "public-sources/juegos-cartas-mecanicas/VERSION.json",
+      "sha256": "694a30abed9e7ad8d52c34c1592b4f12c3258aa3464c96533d7f0204e049b638"
+    },
+    {
+      "source": "creacion/juegos-cartas-mecanicas/proyecto.png",
+      "destination": "public-sources/juegos-cartas-mecanicas/proyecto.png",
+      "sha256": "d44c524577445f0535c7e3de291b5a7add50ef9b7b7102002d0993bf75ce30eb"
+    },
+    {
+      "source": "creacion/lidia/TESIS.md",
+      "destination": "public-sources/lidia/TESIS.md",
+      "sha256": "c10f5bfdc8c23de026bd91233c81a5a83c89fb430a4cee2307e4942c937e824d"
+    },
+    {
+      "source": "creacion/lidia/VERSION.json",
+      "destination": "public-sources/lidia/VERSION.json",
+      "sha256": "6004d0e1c94ea3c8b501962a22417397aee5105a39bd196311865a39c308a584"
+    },
+    {
+      "source": "creacion/lidia/proyecto.png",
+      "destination": "public-sources/lidia/proyecto.png",
+      "sha256": "b8df3651edd0c98ad5a24aba68be986d723561c834b7859b457d9c9a0499701e"
+    },
+    {
+      "source": "creacion/one-piece-teoria/TESIS.md",
+      "destination": "public-sources/one-piece-teoria/TESIS.md",
+      "sha256": "783a63d7356a99d93b0cd5ce59b7da31f2e1041d85e32604ea0c3e5f9eb1cb85"
+    },
+    {
+      "source": "creacion/one-piece-teoria/VERSION.json",
+      "destination": "public-sources/one-piece-teoria/VERSION.json",
+      "sha256": "ccbf31543ac063efd709567d5d42bb830faed9a1d58cd813e7073bb38f0d2ee2"
+    },
+    {
+      "source": "creacion/one-piece-teoria/proyecto.png",
+      "destination": "public-sources/one-piece-teoria/proyecto.png",
+      "sha256": "950f3f892969739aa4b0850f1fbcfdbdcaf7148e2fd3c58e7c198a397c588108"
+    },
+    {
+      "source": "creacion/triaje-colapso/TESIS.md",
+      "destination": "public-sources/triaje-colapso/TESIS.md",
+      "sha256": "f26e3f81baebecc88fe9de1048fa813271f10b1533110940b1a07ac99bd88781"
+    },
+    {
+      "source": "creacion/triaje-colapso/VERSION.json",
+      "destination": "public-sources/triaje-colapso/VERSION.json",
+      "sha256": "b459cb38e88ba4e3bb0a64017ec24b8709f968f799d2b4a5a8565250de969518"
+    },
+    {
+      "source": "creacion/triaje-colapso/proyecto.png",
+      "destination": "public-sources/triaje-colapso/proyecto.png",
+      "sha256": "ef66c050110c16f0a3469185b7562cd6ce2d70ef645c9c85675fa111b853d83b"
+    },
+    {
+      "source": "creacion/videos-prototipos/TESIS.md",
+      "destination": "public-sources/videos-prototipos/TESIS.md",
+      "sha256": "a5234264793d2bef1563fc2829714f87c1a34c4af2c990310031d62f6bc2ffa8"
+    },
+    {
+      "source": "creacion/videos-prototipos/VERSION.json",
+      "destination": "public-sources/videos-prototipos/VERSION.json",
+      "sha256": "b0e146c4d11c61360c285990259af94c32d4cdfd35e2c3f01e126a801a01271e"
+    },
+    {
+      "source": "creacion/videos-prototipos/proyecto.png",
+      "destination": "public-sources/videos-prototipos/proyecto.png",
+      "sha256": "7ee882d609e5db8c85bbb895eb99e24901771697e156879e89b8baef8d154703"
+    },
+    {
+      "source": "creacion/zeclana/TESIS.md",
+      "destination": "public-sources/zeclana/TESIS.md",
+      "sha256": "7e2be59a464012bb5aa57c6f4480d71ae61d54ccfad830ff02c93a89bdaab812"
+    },
+    {
+      "source": "creacion/zeclana/VERSION.json",
+      "destination": "public-sources/zeclana/VERSION.json",
+      "sha256": "c5fabde3217c069a74271a1491f9f62cb85d31f0aae2c2c7391b34fbd6268004"
+    },
+    {
+      "source": "creacion/zeclana/proyecto.png",
+      "destination": "public-sources/zeclana/proyecto.png",
+      "sha256": "ba9656a72f47a0f6e49e734f38759eadcd28e51c07df576396688f30a83c9bcc"
+    },
+    {
+      "source": "desarrollo-profesional/alojamiento-larga-estancia/TESIS.md",
+      "destination": "public-sources/alojamiento-larga-estancia/TESIS.md",
+      "sha256": "fcbce7c0a9bf847da312bbbf03eb1a9ce2d4337ed2abba94548961dd6f872e1a"
+    },
+    {
+      "source": "desarrollo-profesional/alojamiento-larga-estancia/VERSION.json",
+      "destination": "public-sources/alojamiento-larga-estancia/VERSION.json",
+      "sha256": "428a1812cfa359b4a7e47a9caa60a22e0ba4a5b4ce09d8509cfedf90fc72a6f5"
+    },
+    {
+      "source": "desarrollo-profesional/alojamiento-larga-estancia/proyecto.png",
+      "destination": "public-sources/alojamiento-larga-estancia/proyecto.png",
+      "sha256": "d5e33998b7e0afb957bcf785e0f14ad796965ad51bb4f802e845154dcc46878b"
+    },
+    {
+      "source": "desarrollo-profesional/busqueda-empleo/TESIS.md",
+      "destination": "public-sources/busqueda-empleo/TESIS.md",
+      "sha256": "f6b456abc646011896bfcde92a7fc8cfc25eada0243e60c861b596a3af406d0b"
+    },
+    {
+      "source": "desarrollo-profesional/busqueda-empleo/VERSION.json",
+      "destination": "public-sources/busqueda-empleo/VERSION.json",
+      "sha256": "4b255d32924b65bc47a8f6af9057fb989f2ba4fb6a710bd2365f06e9fa4fd48a"
+    },
+    {
+      "source": "desarrollo-profesional/busqueda-empleo/proyecto.png",
+      "destination": "public-sources/busqueda-empleo/proyecto.png",
+      "sha256": "fd46354c1935f306822865e8dcd0a8d2cc0b92bdaea8dff4a2368e77e8b59766"
+    },
+    {
+      "source": "desarrollo-profesional/casos-producto-candidaturas/TESIS.md",
+      "destination": "public-sources/casos-producto-candidaturas/TESIS.md",
+      "sha256": "a6810037bc229e94208f728b8454b5a0c1e1a952c99655aeda347ccc68a5f7c0"
+    },
+    {
+      "source": "desarrollo-profesional/casos-producto-candidaturas/VERSION.json",
+      "destination": "public-sources/casos-producto-candidaturas/VERSION.json",
+      "sha256": "006ce38e1dc1bd6fae5932ead3e3e25328163e3aeb71f77545471dd978166ea4"
+    },
+    {
+      "source": "desarrollo-profesional/casos-producto-candidaturas/proyecto.png",
+      "destination": "public-sources/casos-producto-candidaturas/proyecto.png",
+      "sha256": "4c8bccbb491188d2ea372a7c7601f9777fab21deaacceb0a4bff3d416bd4090d"
+    },
+    {
+      "source": "desarrollo-profesional/doctorado-china/TESIS.md",
+      "destination": "public-sources/doctorado-china/TESIS.md",
+      "sha256": "88e8cc7313cbcc8d2c562802a5dec16ff5b190d68f5b6f348325f6f2bc5d5bf9"
+    },
+    {
+      "source": "desarrollo-profesional/doctorado-china/VERSION.json",
+      "destination": "public-sources/doctorado-china/VERSION.json",
+      "sha256": "e387ed84723424d499b555afbbfe7c488f83f12c6ae7c801e6aea0cfb56577b2"
+    },
+    {
+      "source": "desarrollo-profesional/doctorado-china/proyecto.png",
+      "destination": "public-sources/doctorado-china/proyecto.png",
+      "sha256": "514b759b9b4f169766be8e066bb3088637e718b8e177feb9981fd049cdec6d2f"
+    },
+    {
+      "source": "desarrollo-profesional/doctorado-china-antecedente/TESIS.md",
+      "destination": "public-sources/doctorado-china-antecedente/TESIS.md",
+      "sha256": "3296e23736f57c54deda03f0d19dcdcc5789149dfeeca073b30d651f146f9539"
+    },
+    {
+      "source": "desarrollo-profesional/doctorado-china-antecedente/VERSION.json",
+      "destination": "public-sources/doctorado-china-antecedente/VERSION.json",
+      "sha256": "ea267c9805ef20d145104e7f44d87fcac03f67919c14e5a819d164e482a59f6f"
+    },
+    {
+      "source": "desarrollo-profesional/doctorado-china-antecedente/proyecto.png",
+      "destination": "public-sources/doctorado-china-antecedente/proyecto.png",
+      "sha256": "c6a4b6b125463fe408b4c3e51a6a21574c1921b2e0e9b3cd3546cf439c25a02b"
+    },
+    {
+      "source": "desarrollo-profesional/entrevistas-metodo/TESIS.md",
+      "destination": "public-sources/entrevistas-metodo/TESIS.md",
+      "sha256": "2a895a0b25bfc5ae0867079397d641cceaea1898d85be094fbc7f5bd33fcc0e5"
+    },
+    {
+      "source": "desarrollo-profesional/entrevistas-metodo/VERSION.json",
+      "destination": "public-sources/entrevistas-metodo/VERSION.json",
+      "sha256": "9e286ed7b53a79efae8935b9eeb614418e36c48869c64c42835b3e500f3e2613"
+    },
+    {
+      "source": "desarrollo-profesional/entrevistas-metodo/proyecto.png",
+      "destination": "public-sources/entrevistas-metodo/proyecto.png",
+      "sha256": "5e3485b8865dd5d3efe0a87806bd22bbe2d713dc5dbbd8a4b6a60901a7ca0f44"
+    },
+    {
+      "source": "desarrollo-profesional/idioma-healthtech/TESIS.md",
+      "destination": "public-sources/idioma-healthtech/TESIS.md",
+      "sha256": "ed1a609fff1809b5ce30c87d4645a1fdf2de08e5bdd343e0e17483deb5050fad"
+    },
+    {
+      "source": "desarrollo-profesional/idioma-healthtech/VERSION.json",
+      "destination": "public-sources/idioma-healthtech/VERSION.json",
+      "sha256": "96aa4f6f7d3a568fe97c0d689849aabd2ae6c4781ccc2daa14c33ca13cdad8e2"
+    },
+    {
+      "source": "desarrollo-profesional/idioma-healthtech/proyecto.png",
+      "destination": "public-sources/idioma-healthtech/proyecto.png",
+      "sha256": "58530d6ce80bdfbbb2601c5962b4a0a3b77823c947e00b52d923d342fdea0f81"
+    },
+    {
+      "source": "educacion/jams-formacion/TESIS.md",
+      "destination": "public-sources/jams-formacion/TESIS.md",
+      "sha256": "3ec88b2139b5e32c607a7d7e50a2f16e2b1d2dadd6be70788ab539ef9c3a3430"
+    },
+    {
+      "source": "educacion/jams-formacion/VERSION.json",
+      "destination": "public-sources/jams-formacion/VERSION.json",
+      "sha256": "af83826e8e4cc106cbdd92c14552a43bf9738f755336b4490f70d5d14d7bcdbb"
+    },
+    {
+      "source": "educacion/jams-formacion/proyecto.png",
+      "destination": "public-sources/jams-formacion/proyecto.png",
+      "sha256": "d22d281ec6fc0a755b7cad76bf025e4c2b9a8d8db419d00a062742873e293de3"
+    },
+    {
+      "source": "educacion/ope-baremacion/TESIS.md",
+      "destination": "public-sources/ope-baremacion/TESIS.md",
+      "sha256": "16ab16aa7164e3085f1d4aac2c0d6b326a2c7190aae1eef1e00b67e4231c0545"
+    },
+    {
+      "source": "educacion/ope-baremacion/VERSION.json",
+      "destination": "public-sources/ope-baremacion/VERSION.json",
+      "sha256": "adc0c029632a6bf45a514605edf4d8c476148031483803ac2cb8a7fcd14aaf2b"
+    },
+    {
+      "source": "educacion/ope-baremacion/proyecto.png",
+      "destination": "public-sources/ope-baremacion/proyecto.png",
+      "sha256": "c493c2a77f3e20375edebf7276e79a34ce398e2adb92850cd5016f0277a67f30"
+    },
+    {
+      "source": "educacion/oposiciones-enfermeria/TESIS.md",
+      "destination": "public-sources/oposiciones-enfermeria/TESIS.md",
+      "sha256": "44b41c44f612bda0b42c6d9424c867ab564df62ef5bfa718bd1267d071f8fd9c"
+    },
+    {
+      "source": "educacion/oposiciones-enfermeria/VERSION.json",
+      "destination": "public-sources/oposiciones-enfermeria/VERSION.json",
+      "sha256": "6d96b73e8a9962b772b6fffa664a3a8a7be71c710471de9f1744180e9c6dafc8"
+    },
+    {
+      "source": "educacion/oposiciones-enfermeria/proyecto.png",
+      "destination": "public-sources/oposiciones-enfermeria/proyecto.png",
+      "sha256": "ce53dad37f664ef3cb25fac7bfe52db8cf618a0415efaf81945e5a18c5ef4372"
+    },
+    {
+      "source": "educacion/reforma-educativa/TESIS.md",
+      "destination": "public-sources/reforma-educativa/TESIS.md",
+      "sha256": "e9749ef069e0049466bcb65e18a92b2105fb82ab34c34b59f0bd29525c8a1b6f"
+    },
+    {
+      "source": "educacion/reforma-educativa/VERSION.json",
+      "destination": "public-sources/reforma-educativa/VERSION.json",
+      "sha256": "cdfd74f0b6d7f75d81ab7c5aaa7476535b0ba25727fc60256be7d7b32cf7e61b"
+    },
+    {
+      "source": "educacion/reforma-educativa/proyecto.png",
+      "destination": "public-sources/reforma-educativa/proyecto.png",
+      "sha256": "76681b793d473ed9050af06921c75e6f5017d0a9b8506f085ae3bcda1a30e57d"
+    },
+    {
+      "source": "educacion/tutor-familias/TESIS.md",
+      "destination": "public-sources/tutor-familias/TESIS.md",
+      "sha256": "8a502615fa6e2df1e0472329833e794099d6a0b122b83d7df26277b10c2344e4"
+    },
+    {
+      "source": "educacion/tutor-familias/VERSION.json",
+      "destination": "public-sources/tutor-familias/VERSION.json",
+      "sha256": "63480c76552664a58974d6ff976cebbdd443cb4166561ec3475c89c88f42bddf"
+    },
+    {
+      "source": "educacion/tutor-familias/proyecto.png",
+      "destination": "public-sources/tutor-familias/proyecto.png",
+      "sha256": "75931b073aa329dd716961def64e094552bd32650713b95dabc30dc677169899"
+    },
+    {
+      "source": "finanzas/bot-mercados/TESIS.md",
+      "destination": "public-sources/bot-mercados/TESIS.md",
+      "sha256": "2baa57ff2769c240ab3d82e4937288e642b93855e78d98488180d6e8e1cc3b62"
+    },
+    {
+      "source": "finanzas/bot-mercados/VERSION.json",
+      "destination": "public-sources/bot-mercados/VERSION.json",
+      "sha256": "9cd7fcea003568b4ce0577e5856056216cf63f5278bcd50a6485e36475ce5c5e"
+    },
+    {
+      "source": "finanzas/bot-mercados/proyecto.png",
+      "destination": "public-sources/bot-mercados/proyecto.png",
+      "sha256": "ce215b51208cdbc0bde74eedbae602e45b8f21b6bae6dfc864b14c0120b5c818"
+    },
+    {
+      "source": "finanzas/bot-meteorologia/TESIS.md",
+      "destination": "public-sources/bot-meteorologia/TESIS.md",
+      "sha256": "41460015cf8cc7ea161b63bf8085674855c9045c422675a99498bd7b6ea9d6c0"
+    },
+    {
+      "source": "finanzas/bot-meteorologia/VERSION.json",
+      "destination": "public-sources/bot-meteorologia/VERSION.json",
+      "sha256": "4ce5f84ae25ae1223f22fbdfc7480741f7f67a6d3db3712ee65f298b94323d90"
+    },
+    {
+      "source": "finanzas/bot-meteorologia/proyecto.png",
+      "destination": "public-sources/bot-meteorologia/proyecto.png",
+      "sha256": "5b7a9cf31521bc8e08443c5ef171fa234db180d241564d129b2140e5ec3a0ad2"
+    },
+    {
+      "source": "finanzas/conexiones-financieras/TESIS.md",
+      "destination": "public-sources/conexiones-financieras/TESIS.md",
+      "sha256": "1f0cb7bc4cee4b340259a513f0928cdf1e27b1da876b891ccfe0f224dc62ead1"
+    },
+    {
+      "source": "finanzas/conexiones-financieras/VERSION.json",
+      "destination": "public-sources/conexiones-financieras/VERSION.json",
+      "sha256": "88d8739da097f59b9212211fd870d2d41439288043fa68db9e013a0816770cd1"
+    },
+    {
+      "source": "finanzas/conexiones-financieras/proyecto.png",
+      "destination": "public-sources/conexiones-financieras/proyecto.png",
+      "sha256": "268ab5d968252f73f28d992dfd6b6a318950b7613815dbfb88e96bc1e66ef217"
+    },
+    {
+      "source": "finanzas/consolidacion-fiscal/TESIS.md",
+      "destination": "public-sources/consolidacion-fiscal/TESIS.md",
+      "sha256": "2c5c387da1768d0fb0180b0d3a4f188e6ddc3d8226ef3c1aad14dd3ea464705e"
+    },
+    {
+      "source": "finanzas/consolidacion-fiscal/VERSION.json",
+      "destination": "public-sources/consolidacion-fiscal/VERSION.json",
+      "sha256": "a09c8d6bfd803e36de1c7abdc0cc83e36ccdcd841142094491974421ed79ccd9"
+    },
+    {
+      "source": "finanzas/consolidacion-fiscal/proyecto.png",
+      "destination": "public-sources/consolidacion-fiscal/proyecto.png",
+      "sha256": "a85f162ed20fac9a473d3f265d5ba5d94eb48c580fe0aeb06ef5942e919efbf8"
+    },
+    {
+      "source": "finanzas/cribado-financiero/TESIS.md",
+      "destination": "public-sources/cribado-financiero/TESIS.md",
+      "sha256": "050f1cf5d3d9642f54e1047e5a8b36888f4f8e5a45e8cb84f37050a9c1c4520b"
+    },
+    {
+      "source": "finanzas/cribado-financiero/VERSION.json",
+      "destination": "public-sources/cribado-financiero/VERSION.json",
+      "sha256": "28c3de4fa4d5acb4ec39ef1ce3433494aff7e811244438b80384ac809b8641f9"
+    },
+    {
+      "source": "finanzas/cribado-financiero/proyecto.png",
+      "destination": "public-sources/cribado-financiero/proyecto.png",
+      "sha256": "ff2f989abc9ee5b322a2ff73c4b6928da2234b3b2a5b02d85ddc1c4739d5eefe"
+    },
+    {
+      "source": "finanzas/finanzas-personales-app/TESIS.md",
+      "destination": "public-sources/finanzas-personales-app/TESIS.md",
+      "sha256": "0afd503f1f2957c8d2bcf0675aec83d598df376c1a802c791ea2b50ac1ba53a3"
+    },
+    {
+      "source": "finanzas/finanzas-personales-app/VERSION.json",
+      "destination": "public-sources/finanzas-personales-app/VERSION.json",
+      "sha256": "78f31b2eebba266cf95e2e095e840a36aaf753df752f9e5b02aa403155e43fe2"
+    },
+    {
+      "source": "finanzas/finanzas-personales-app/proyecto.png",
+      "destination": "public-sources/finanzas-personales-app/proyecto.png",
+      "sha256": "b4f73f5f153b44c65fcaad2c0f29c49eabaeb246cb6ca206f30d698f1801667d"
+    },
+    {
+      "source": "finanzas/fiscalidad-estancias-laborales/TESIS.md",
+      "destination": "public-sources/fiscalidad-estancias-laborales/TESIS.md",
+      "sha256": "f042cde46118e1cbc53c0c32a039b94106a43b2d4e0fb837bf09c8ee18bb720b"
+    },
+    {
+      "source": "finanzas/fiscalidad-estancias-laborales/VERSION.json",
+      "destination": "public-sources/fiscalidad-estancias-laborales/VERSION.json",
+      "sha256": "ae95799d440e113f5f88645e326d6c1f6a24bb109c358270bd620bf63cf77fd6"
+    },
+    {
+      "source": "finanzas/fiscalidad-estancias-laborales/proyecto.png",
+      "destination": "public-sources/fiscalidad-estancias-laborales/proyecto.png",
+      "sha256": "ad19fae165175c3ef91a06afbd99914ebc606c93309e5be95004946e1468ecc3"
+    },
+    {
+      "source": "finanzas/gestion-financiera-metodo/TESIS.md",
+      "destination": "public-sources/gestion-financiera-metodo/TESIS.md",
+      "sha256": "aa29124e4c00bdd31e080787cce49d0e60f1745910bd27861b7a30b5cf0aefe5"
+    },
+    {
+      "source": "finanzas/gestion-financiera-metodo/VERSION.json",
+      "destination": "public-sources/gestion-financiera-metodo/VERSION.json",
+      "sha256": "ef3728627fda134362ff93f230b6f6e6a1ecf1aaf5b1c9cf791955fe610e4e08"
+    },
+    {
+      "source": "finanzas/gestion-financiera-metodo/proyecto.png",
+      "destination": "public-sources/gestion-financiera-metodo/proyecto.png",
+      "sha256": "71e2a13d3e6888a5f7772edc7d0fdd2f4f695fe38ddb59e8eb2e7bd0eda34a9c"
+    },
+    {
+      "source": "finanzas/historial-activos-metodo/TESIS.md",
+      "destination": "public-sources/historial-activos-metodo/TESIS.md",
+      "sha256": "479ed9b0de19a2495308fb85f498d285dab8937146a60897ae1e352e951340ca"
+    },
+    {
+      "source": "finanzas/historial-activos-metodo/VERSION.json",
+      "destination": "public-sources/historial-activos-metodo/VERSION.json",
+      "sha256": "77d01299ac58035119bbabaf20a80e5aeffcef6bda4863505f7a0a0021c074bd"
+    },
+    {
+      "source": "finanzas/historial-activos-metodo/proyecto.png",
+      "destination": "public-sources/historial-activos-metodo/proyecto.png",
+      "sha256": "aecc0cdc73716b05808f848ebac949fc3b02abb9a66f144c418162a24f3074cd"
+    },
+    {
+      "source": "finanzas/inventario-activos-metodo/TESIS.md",
+      "destination": "public-sources/inventario-activos-metodo/TESIS.md",
+      "sha256": "a68b1538f46bb3315cc02c5375608965bbb2d4893b335902cd6a711421f5c123"
+    },
+    {
+      "source": "finanzas/inventario-activos-metodo/VERSION.json",
+      "destination": "public-sources/inventario-activos-metodo/VERSION.json",
+      "sha256": "e5add8b98810c5cf995945aefc0ad5d16cf63d2d3703bf04c2269805fb733ffc"
+    },
+    {
+      "source": "finanzas/inventario-activos-metodo/proyecto.png",
+      "destination": "public-sources/inventario-activos-metodo/proyecto.png",
+      "sha256": "fc84847422eda8d402e4acb35f96b2762d1f45cefbc64c121c852d5822872c2a"
+    },
+    {
+      "source": "finanzas/robotica-cadena-valor/TESIS.md",
+      "destination": "public-sources/robotica-cadena-valor/TESIS.md",
+      "sha256": "917786cbfabb15d2458c2cb6a06fcbe69d0474164718695ac855d67f1b32f54a"
+    },
+    {
+      "source": "finanzas/robotica-cadena-valor/VERSION.json",
+      "destination": "public-sources/robotica-cadena-valor/VERSION.json",
+      "sha256": "fe8c072744bfe7da16f7b7f4ba3555005586facd230313ec1a8ebc4fb17e9eeb"
+    },
+    {
+      "source": "finanzas/robotica-cadena-valor/proyecto.png",
+      "destination": "public-sources/robotica-cadena-valor/proyecto.png",
+      "sha256": "dab55156524aadc6a3ff95909d1be94777f6e3926a6e7dc4e816615bfc9eff6d"
+    },
+    {
+      "source": "gobierno/gobierno-ia/TESIS.md",
+      "destination": "public-sources/gobierno-ia/TESIS.md",
+      "sha256": "e8f39f794269f77666c1374e795673d1e47fa362ed7788afc6a12f1f5e7fb321"
+    },
+    {
+      "source": "gobierno/gobierno-ia/VERSION.json",
+      "destination": "public-sources/gobierno-ia/VERSION.json",
+      "sha256": "538c1fdcf2be5396fcdc5928c2cdb76144cc0561d824db23767dfa4dae52f2ca"
+    },
+    {
+      "source": "gobierno/gobierno-ia/proyecto.png",
+      "destination": "public-sources/gobierno-ia/proyecto.png",
+      "sha256": "73f6cffc3371e9ea39e7789826c450dde291793e7b15bb808f8f15664e401145"
+    },
+    {
+      "source": "metodologia/archivo-documental/TESIS.md",
+      "destination": "public-sources/archivo-documental/TESIS.md",
+      "sha256": "51d988919fd52d8f4a992ac7ae36b0d3a0615b77da1077146dbc04c05f40d73b"
+    },
+    {
+      "source": "metodologia/archivo-documental/VERSION.json",
+      "destination": "public-sources/archivo-documental/VERSION.json",
+      "sha256": "23174393a8de0414963526b4442ac23e4158d20280e1b9ef58499b4ed3b2be6a"
+    },
+    {
+      "source": "metodologia/archivo-documental/proyecto.png",
+      "destination": "public-sources/archivo-documental/proyecto.png",
+      "sha256": "3ce686287729821ae17f1a7c678bd71d3f3452e2a114c468d0573e86044ab933"
+    },
+    {
+      "source": "metodologia/perfil-contexto/TESIS.md",
+      "destination": "public-sources/perfil-contexto/TESIS.md",
+      "sha256": "fc6799b3843bc447b66010aff2b634550eb41974f7bec7ccef7a58dfbaefd015"
+    },
+    {
+      "source": "metodologia/perfil-contexto/VERSION.json",
+      "destination": "public-sources/perfil-contexto/VERSION.json",
+      "sha256": "ae51141e037cf24b3cb11ec769121de995917f1f3c65e5bd594073282cd70ca5"
+    },
+    {
+      "source": "metodologia/perfil-contexto/proyecto.png",
+      "destination": "public-sources/perfil-contexto/proyecto.png",
+      "sha256": "014f1c8f8f4a2a32d9d3b41ba9519e560a89b4ed959b3b8f9b7a564a8718c4d4"
+    },
+    {
+      "source": "metodologia/preparacion-proyectos/TESIS.md",
+      "destination": "public-sources/preparacion-proyectos/TESIS.md",
+      "sha256": "b455113938bb0dc0b8af7766c5f5e20c0da60c4ef70d72992a58328882a10ee6"
+    },
+    {
+      "source": "metodologia/preparacion-proyectos/VERSION.json",
+      "destination": "public-sources/preparacion-proyectos/VERSION.json",
+      "sha256": "c83bc7ebe9e97ed72dcbe5b7a09d4096aa7e8247d041727eba2382eec3be018d"
+    },
+    {
+      "source": "metodologia/preparacion-proyectos/proyecto.png",
+      "destination": "public-sources/preparacion-proyectos/proyecto.png",
+      "sha256": "f830528b1a7ba9784c43d672ae81d7ae4179df131c417384bd34eb4341a83398"
+    },
+    {
+      "source": "metodologia/tareas-programadas-agentes/TESIS.md",
+      "destination": "public-sources/tareas-programadas-agentes/TESIS.md",
+      "sha256": "8050370b1a7ce956ffa434c964b70f05b333d1e20373f19c8e0388eb8bec18c2"
+    },
+    {
+      "source": "metodologia/tareas-programadas-agentes/VERSION.json",
+      "destination": "public-sources/tareas-programadas-agentes/VERSION.json",
+      "sha256": "8154b6e07dfd6a29661f93a22617428c4dd2d30df322be7bc80d875fe899be3e"
+    },
+    {
+      "source": "metodologia/tareas-programadas-agentes/proyecto.png",
+      "destination": "public-sources/tareas-programadas-agentes/proyecto.png",
+      "sha256": "e3bfadb863b0f605cf6bd27ac6947f723e7d0b841067d27fd7b3759434f141a1"
+    },
+    {
+      "source": "negocios/alojamiento-rural-concepto/TESIS.md",
+      "destination": "public-sources/alojamiento-rural-concepto/TESIS.md",
+      "sha256": "7fc24a4e4f6febb6f11394e0ace5e0a3cf207e0469e24597473a3132b5bc3906"
+    },
+    {
+      "source": "negocios/alojamiento-rural-concepto/VERSION.json",
+      "destination": "public-sources/alojamiento-rural-concepto/VERSION.json",
+      "sha256": "2a875e09ac77fd449b928c6e53372d7ab64c6cb003e0ea88759a7f494cb5c821"
+    },
+    {
+      "source": "negocios/alojamiento-rural-concepto/proyecto.png",
+      "destination": "public-sources/alojamiento-rural-concepto/proyecto.png",
+      "sha256": "3262f95bbf95e59d961435ab1f919454f3a585843f2e2e08e877b4c68d034c8b"
+    },
+    {
+      "source": "negocios/canales-distribucion/TESIS.md",
+      "destination": "public-sources/canales-distribucion/TESIS.md",
+      "sha256": "496eeced6cdcdcf3523c38f7790b720a319d64ecc2f822b86fa76feba04b0836"
+    },
+    {
+      "source": "negocios/canales-distribucion/VERSION.json",
+      "destination": "public-sources/canales-distribucion/VERSION.json",
+      "sha256": "dcc969d917fe0aac924213ec9230d26f44864a3be576496d2ed3ed49b73f031b"
+    },
+    {
+      "source": "negocios/canales-distribucion/proyecto.png",
+      "destination": "public-sources/canales-distribucion/proyecto.png",
+      "sha256": "c97df2dd7a63ad4213ea0b43c3ea8cde2536abcf1620b0541a55027bbb57ddbd"
+    },
+    {
+      "source": "negocios/cartera-no-sanitaria/TESIS.md",
+      "destination": "public-sources/cartera-no-sanitaria/TESIS.md",
+      "sha256": "07d16fdd2746b4aa02580e429adfc35b9ceeab7531250dd98788f2a7818cb5e1"
+    },
+    {
+      "source": "negocios/cartera-no-sanitaria/VERSION.json",
+      "destination": "public-sources/cartera-no-sanitaria/VERSION.json",
+      "sha256": "a7c0ac4cd6d7ebc87ee35a736f9b3cffbe3eb8f7a0403d19b92c25c41b51b808"
+    },
+    {
+      "source": "negocios/cartera-no-sanitaria/proyecto.png",
+      "destination": "public-sources/cartera-no-sanitaria/proyecto.png",
+      "sha256": "8a071d70f89bbb510d8cd14c3afdb549941dc4c10a27a1de17a8472f705c9398"
+    },
+    {
+      "source": "negocios/celdas-negocio/TESIS.md",
+      "destination": "public-sources/celdas-negocio/TESIS.md",
+      "sha256": "5b5c1538954bc9b4c2e9efed19ca5a6e24fcba7265090b76d12adc506dfbaa18"
+    },
+    {
+      "source": "negocios/celdas-negocio/VERSION.json",
+      "destination": "public-sources/celdas-negocio/VERSION.json",
+      "sha256": "27b67dcce4a68d8a4a92ee9f453b6e7410fbcf311a0cb0ece9b8fdb7a93c73d8"
+    },
+    {
+      "source": "negocios/celdas-negocio/proyecto.png",
+      "destination": "public-sources/celdas-negocio/proyecto.png",
+      "sha256": "ed0e84bacbbac72388a0748471306cb3ad2ac7d7a2e9b8694d9ff628bdeffd39"
+    },
+    {
+      "source": "negocios/centro-datos/TESIS.md",
+      "destination": "public-sources/centro-datos/TESIS.md",
+      "sha256": "a5a2a7625c767627ead6b0cd09268ccda4d73e4ef62d11892ecf20b68f7658db"
+    },
+    {
+      "source": "negocios/centro-datos/VERSION.json",
+      "destination": "public-sources/centro-datos/VERSION.json",
+      "sha256": "2d81a2a24849b529b92058a26a95bfeedbda1e8b17cb1b35116fac395c28ef7f"
+    },
+    {
+      "source": "negocios/centro-datos/proyecto.png",
+      "destination": "public-sources/centro-datos/proyecto.png",
+      "sha256": "734594391569a38c5ed3c191efeb787ed2d722c84e1ed4116d97c4d93b2f5372"
+    },
+    {
+      "source": "negocios/chocolate-3d/TESIS.md",
+      "destination": "public-sources/chocolate-3d/TESIS.md",
+      "sha256": "e4d453df5ad005fdb52493ab8eddd1566fe0a76577f425da63d9c5d80ad95ad4"
+    },
+    {
+      "source": "negocios/chocolate-3d/VERSION.json",
+      "destination": "public-sources/chocolate-3d/VERSION.json",
+      "sha256": "994edd141293ae976f8ffedb00e270f1c071ac5a87012a339a47e634f6a206a4"
+    },
+    {
+      "source": "negocios/chocolate-3d/proyecto.png",
+      "destination": "public-sources/chocolate-3d/proyecto.png",
+      "sha256": "a286791a3ac93dd49bcf4e27f43a32b3bf3b10422397c14ca9b291b6d4e040af"
+    },
+    {
+      "source": "negocios/comercio-local-virtual/TESIS.md",
+      "destination": "public-sources/comercio-local-virtual/TESIS.md",
+      "sha256": "b0dcc8e96c7ce1ee4072df9c179849ba90a956c71848b73972c816cd5084b90f"
+    },
+    {
+      "source": "negocios/comercio-local-virtual/VERSION.json",
+      "destination": "public-sources/comercio-local-virtual/VERSION.json",
+      "sha256": "f5fd1816ab0ea9dd468c8ed0d4e928773a06496dd61a1df81a92f7478c1ace75"
+    },
+    {
+      "source": "negocios/comercio-local-virtual/proyecto.png",
+      "destination": "public-sources/comercio-local-virtual/proyecto.png",
+      "sha256": "7ab90a97155fe3ff8af27d793700d81345b2076bfacdb732cd3e9afd20209d74"
+    },
+    {
+      "source": "negocios/comparacion-iniciativas/TESIS.md",
+      "destination": "public-sources/comparacion-iniciativas/TESIS.md",
+      "sha256": "efb6545311cfa14f5d1617ea7fef1891f8f44e891e37285f52d1efde3c0108ae"
+    },
+    {
+      "source": "negocios/comparacion-iniciativas/VERSION.json",
+      "destination": "public-sources/comparacion-iniciativas/VERSION.json",
+      "sha256": "0bb2a10fa148c07ea10bbca91cca72098b6b4974a7d039ec6c794815b59528e7"
+    },
+    {
+      "source": "negocios/comparacion-iniciativas/proyecto.png",
+      "destination": "public-sources/comparacion-iniciativas/proyecto.png",
+      "sha256": "8fe0ba462ddee84ff68a3bd33751ed50f74a64c58ddad4eb7f0a45d1380077fe"
+    },
+    {
+      "source": "negocios/evolucion-hipotesis-negocio/TESIS.md",
+      "destination": "public-sources/evolucion-hipotesis-negocio/TESIS.md",
+      "sha256": "29af329e113d411fe2637f3cb3ad8fa7a76c384cb97af35284d735d42b5f8e8e"
+    },
+    {
+      "source": "negocios/evolucion-hipotesis-negocio/VERSION.json",
+      "destination": "public-sources/evolucion-hipotesis-negocio/VERSION.json",
+      "sha256": "dc07e2211b5466869bd1dc3092442ce86a7f310416e8bb9b484c9a413687c0ee"
+    },
+    {
+      "source": "negocios/evolucion-hipotesis-negocio/proyecto.png",
+      "destination": "public-sources/evolucion-hipotesis-negocio/proyecto.png",
+      "sha256": "bf2837e30e7a46090453084bef9d7002f1fb16f5da5bb8474e0bc485571dab84"
+    },
+    {
+      "source": "negocios/ideas-aparcadas/TESIS.md",
+      "destination": "public-sources/ideas-aparcadas/TESIS.md",
+      "sha256": "f6e1ffc5613a16d0acc4cb5ce33b6a1f365e31454ef37fd1aab9ef9816eafdae"
+    },
+    {
+      "source": "negocios/ideas-aparcadas/VERSION.json",
+      "destination": "public-sources/ideas-aparcadas/VERSION.json",
+      "sha256": "c58aaa8dd2d1599a711ae160181979b6f0af0b51e59d1365e2f4304a2be0eeee"
+    },
+    {
+      "source": "negocios/ideas-aparcadas/proyecto.png",
+      "destination": "public-sources/ideas-aparcadas/proyecto.png",
+      "sha256": "55d2a24da2d745db0843ceaabd7a2b5b8496065bb8f7beb2b2c50170c58aee0a"
+    },
+    {
+      "source": "negocios/impresion-uv/TESIS.md",
+      "destination": "public-sources/impresion-uv/TESIS.md",
+      "sha256": "ec1b86fbafb2223abccafdc6581fd92534c4f30afdf81c80d51cb24d63cacaf0"
+    },
+    {
+      "source": "negocios/impresion-uv/VERSION.json",
+      "destination": "public-sources/impresion-uv/VERSION.json",
+      "sha256": "1efa19d85b416d1ef4526f888e1a84703a61163d6cd7d1852c8aae4736714491"
+    },
+    {
+      "source": "negocios/impresion-uv/proyecto.png",
+      "destination": "public-sources/impresion-uv/proyecto.png",
+      "sha256": "5a030b6e16b24375027c7dc2d5b31c35bcf13ee1985fc0c21f2ffb38b9bae342"
+    },
+    {
+      "source": "negocios/instalacion-asic/TESIS.md",
+      "destination": "public-sources/instalacion-asic/TESIS.md",
+      "sha256": "f4fe1bfa7d053afba799fdce867ff464a6967f3829d5d04941d1f7a2874fc108"
+    },
+    {
+      "source": "negocios/instalacion-asic/VERSION.json",
+      "destination": "public-sources/instalacion-asic/VERSION.json",
+      "sha256": "2d8774f89608bc3aaae38911c6abfa80a0a3297c709fd46f342526afcfe1c343"
+    },
+    {
+      "source": "negocios/instalacion-asic/proyecto.png",
+      "destination": "public-sources/instalacion-asic/proyecto.png",
+      "sha256": "b58d2323e1791dc89028348379bc8d93e46f82dbd9454310589b04f27be609fa"
+    },
+    {
+      "source": "negocios/modelos-negocio-discovery/TESIS.md",
+      "destination": "public-sources/modelos-negocio-discovery/TESIS.md",
+      "sha256": "65cc0d4a87b5271fc1fc7290aa8fc4f6821cfd47e012e190c167718ad367ccba"
+    },
+    {
+      "source": "negocios/modelos-negocio-discovery/VERSION.json",
+      "destination": "public-sources/modelos-negocio-discovery/VERSION.json",
+      "sha256": "31d886ae4cb896e91a0f9cd0bdc4fd7f13b5745aa2b711cf13ff0387454ddc9b"
+    },
+    {
+      "source": "negocios/modelos-negocio-discovery/proyecto.png",
+      "destination": "public-sources/modelos-negocio-discovery/proyecto.png",
+      "sha256": "8cbf3ae016977aee5e051e72797d91d1c7ade4319d8aa183637e68c34077f8ff"
+    },
+    {
+      "source": "negocios/perfume-dispensacion/TESIS.md",
+      "destination": "public-sources/perfume-dispensacion/TESIS.md",
+      "sha256": "47e3b34a99194ada636c20628362fb3bdd6bbc85e79f3cd72a51780f5a003152"
+    },
+    {
+      "source": "negocios/perfume-dispensacion/VERSION.json",
+      "destination": "public-sources/perfume-dispensacion/VERSION.json",
+      "sha256": "132b5ba25905d259f3355f3c80a68e149625a19a41a0cb023a8d41f1f951c63c"
+    },
+    {
+      "source": "negocios/perfume-dispensacion/proyecto.png",
+      "destination": "public-sources/perfume-dispensacion/proyecto.png",
+      "sha256": "e7a7cb19396a4848ca75d638e3574f30d8c9c63b9c7f829f5b3a3b64e220bad1"
+    },
+    {
+      "source": "negocios/servicios-digitales-practica/TESIS.md",
+      "destination": "public-sources/servicios-digitales-practica/TESIS.md",
+      "sha256": "b97bf3dc82bee63123933497ff93c852ed8afdfe5c2d58c79b1fe48d02bfd663"
+    },
+    {
+      "source": "negocios/servicios-digitales-practica/VERSION.json",
+      "destination": "public-sources/servicios-digitales-practica/VERSION.json",
+      "sha256": "0662e9af367a1e301455329cb9e54fcd31caf9a39adce07c17118ea224635d9b"
+    },
+    {
+      "source": "negocios/servicios-digitales-practica/proyecto.png",
+      "destination": "public-sources/servicios-digitales-practica/proyecto.png",
+      "sha256": "f64a616a672a5e0e96431bd8818a9e7f702f3d18674eb572edb72b0af45199ec"
+    },
+    {
+      "source": "negocios/servicios-online/TESIS.md",
+      "destination": "public-sources/servicios-online/TESIS.md",
+      "sha256": "caa7ea98e2e3d07324c3264561b581dfb0e93c5c1df65d247a4c0e1d99d1ebf0"
+    },
+    {
+      "source": "negocios/servicios-online/VERSION.json",
+      "destination": "public-sources/servicios-online/VERSION.json",
+      "sha256": "ca6a4df770309e7041e757774c4249c5f6d3626bed13258d85b53ddcbc07a09b"
+    },
+    {
+      "source": "negocios/servicios-online/proyecto.png",
+      "destination": "public-sources/servicios-online/proyecto.png",
+      "sha256": "1f97bc5cb7629f66dbbc08d9dce36b4171f79c409d7cdb39d5c4308e3724f0db"
+    },
+    {
+      "source": "negocios/tecnologia-china-espana/TESIS.md",
+      "destination": "public-sources/tecnologia-china-espana/TESIS.md",
+      "sha256": "73779a1cb08b34dbca3e5465306413cf85b20d3e38e420feead3afbd7a32be85"
+    },
+    {
+      "source": "negocios/tecnologia-china-espana/VERSION.json",
+      "destination": "public-sources/tecnologia-china-espana/VERSION.json",
+      "sha256": "c2b99d4dfa318507f8bc16f1f40a5940150689da934bcab3d6abe21f04e182d5"
+    },
+    {
+      "source": "negocios/tecnologia-china-espana/proyecto.png",
+      "destination": "public-sources/tecnologia-china-espana/proyecto.png",
+      "sha256": "2e64bf2f489def78004b6573bb23d3e6ac9c95fbc101cf577ca255ca0bb49786"
+    },
+    {
+      "source": "negocios/tres-vias-desarrollo/TESIS.md",
+      "destination": "public-sources/tres-vias-desarrollo/TESIS.md",
+      "sha256": "e1fb588810eff70a227a733323351b802711bc7136d59ae70af711de6d1661f7"
+    },
+    {
+      "source": "negocios/tres-vias-desarrollo/VERSION.json",
+      "destination": "public-sources/tres-vias-desarrollo/VERSION.json",
+      "sha256": "9c4051b90d9249dc27f0dd9f113e9bf6da96097caf3f8ea6a4fd233dca3ff11d"
+    },
+    {
+      "source": "negocios/tres-vias-desarrollo/proyecto.png",
+      "destination": "public-sources/tres-vias-desarrollo/proyecto.png",
+      "sha256": "7d7f5c2d651a0bb81fc8a494c6cd9d03aa47c4a2eadf04e10ae501f71525beb5"
+    },
+    {
+      "source": "negocios/video-inmobiliario/TESIS.md",
+      "destination": "public-sources/video-inmobiliario/TESIS.md",
+      "sha256": "7ca2ed715edb32487283f7385b69099281620e1b28b98f8e175c9d549a456326"
+    },
+    {
+      "source": "negocios/video-inmobiliario/VERSION.json",
+      "destination": "public-sources/video-inmobiliario/VERSION.json",
+      "sha256": "debb5bd48e6f1cd6a9ab5aed0ed68b1dbd0e5f8d412d6ca2318b79534517531b"
+    },
+    {
+      "source": "negocios/video-inmobiliario/proyecto.png",
+      "destination": "public-sources/video-inmobiliario/proyecto.png",
+      "sha256": "7de160583605e64172534a453514aba6d66c7ebecbbd7f96af455fbbb9902039"
+    },
+    {
+      "source": "tecnologicos/adopcion-digital/TESIS.md",
+      "destination": "public-sources/adopcion-digital/TESIS.md",
+      "sha256": "fc00e102a3f40525ee56c28489853041c029053578ce202dfcd150ef868e02a6"
+    },
+    {
+      "source": "tecnologicos/adopcion-digital/VERSION.json",
+      "destination": "public-sources/adopcion-digital/VERSION.json",
+      "sha256": "50524a8602acbeb6cf893b4421a54cb5a31be89c96154b853c3a943624fa54c2"
+    },
+    {
+      "source": "tecnologicos/adopcion-digital/proyecto.png",
+      "destination": "public-sources/adopcion-digital/proyecto.png",
+      "sha256": "2812f07c96160e53f4b1c3442af9f0d0a58704d4bedeffcb0ad755bb277f976a"
+    },
+    {
+      "source": "tecnologicos/albacete-3d/TESIS.md",
+      "destination": "public-sources/albacete-3d/TESIS.md",
+      "sha256": "6f898c48939b24b4697c64fbbf9e796fe9bb73476adaca891f0af1527111f6ab"
+    },
+    {
+      "source": "tecnologicos/albacete-3d/VERSION.json",
+      "destination": "public-sources/albacete-3d/VERSION.json",
+      "sha256": "7e22188af28d8af68f6d618a11dea64304da96bd74317b693e5512631630e815"
+    },
+    {
+      "source": "tecnologicos/albacete-3d/proyecto.png",
+      "destination": "public-sources/albacete-3d/proyecto.png",
+      "sha256": "d1b20b474f65c97caf707ef25420c5f27ea67e56aefba5ac0e71358502369a09"
+    },
+    {
+      "source": "tecnologicos/automatizacion-oficios/TESIS.md",
+      "destination": "public-sources/automatizacion-oficios/TESIS.md",
+      "sha256": "76c6040ffb5f48ae46adbaf98877698d0f20c19c3fde077ca454f6f347bdfbee"
+    },
+    {
+      "source": "tecnologicos/automatizacion-oficios/VERSION.json",
+      "destination": "public-sources/automatizacion-oficios/VERSION.json",
+      "sha256": "063434c5538c82292f18fbc6aa91c13a0b104123bad4374d596ea32dd8ccb305"
+    },
+    {
+      "source": "tecnologicos/automatizacion-oficios/proyecto.png",
+      "destination": "public-sources/automatizacion-oficios/proyecto.png",
+      "sha256": "be5359671000a8d6d7c976123255dbb77716b1dd322d20f317e98b201cc80d69"
+    },
+    {
+      "source": "tecnologicos/buzon-mejoras/TESIS.md",
+      "destination": "public-sources/buzon-mejoras/TESIS.md",
+      "sha256": "f798f47d8f3699ac7c716ec5ee4a80d37fc0944d07c0129059375c4e196f092a"
+    },
+    {
+      "source": "tecnologicos/buzon-mejoras/VERSION.json",
+      "destination": "public-sources/buzon-mejoras/VERSION.json",
+      "sha256": "56dcb01c092d8148d797715a0fd059ae34fcb545d6feef3edc458e5f3d572a04"
+    },
+    {
+      "source": "tecnologicos/buzon-mejoras/proyecto.png",
+      "destination": "public-sources/buzon-mejoras/proyecto.png",
+      "sha256": "e837d85a2c5323ce0fb227b281e28efe2d0d415244faccc3f06cdeddba85ee8e"
+    },
+    {
+      "source": "tecnologicos/caso-analitica-salud/TESIS.md",
+      "destination": "public-sources/caso-analitica-salud/TESIS.md",
+      "sha256": "6ca5232cc5f5ff3c91a36fe95ef9fb65910310e598b2181034803f66365b09b4"
+    },
+    {
+      "source": "tecnologicos/caso-analitica-salud/VERSION.json",
+      "destination": "public-sources/caso-analitica-salud/VERSION.json",
+      "sha256": "7a9d4d573ae007d64a9e6524e908c51a92ffbe91916716a4a9b23f8d136d4c15"
+    },
+    {
+      "source": "tecnologicos/caso-analitica-salud/proyecto.png",
+      "destination": "public-sources/caso-analitica-salud/proyecto.png",
+      "sha256": "5e1ed21cf384814d076b21c011824ebb729d604f11f480bcf2f42e806d972bb0"
+    },
+    {
+      "source": "tecnologicos/caso-documentacion-clinica/TESIS.md",
+      "destination": "public-sources/caso-documentacion-clinica/TESIS.md",
+      "sha256": "4e818e9f724f528fb45f7b9298a283f87495341fb0c5e652b0a395193c9953af"
+    },
+    {
+      "source": "tecnologicos/caso-documentacion-clinica/VERSION.json",
+      "destination": "public-sources/caso-documentacion-clinica/VERSION.json",
+      "sha256": "54d76fb99356edd9db610709a45e3b6f192e6c95b51ec325e5d4e315dc7a7e53"
+    },
+    {
+      "source": "tecnologicos/caso-documentacion-clinica/proyecto.png",
+      "destination": "public-sources/caso-documentacion-clinica/proyecto.png",
+      "sha256": "28318ba68960a660f73fe4c3df84d4e3718160cffab7390dd773d5d1e9408aaf"
+    },
+    {
+      "source": "tecnologicos/caso-informacion-empresa/TESIS.md",
+      "destination": "public-sources/caso-informacion-empresa/TESIS.md",
+      "sha256": "670451dac54fcc06efccb4d7d9c6cbeff947ab2f4e7b14069513f8c162ba8647"
+    },
+    {
+      "source": "tecnologicos/caso-informacion-empresa/VERSION.json",
+      "destination": "public-sources/caso-informacion-empresa/VERSION.json",
+      "sha256": "59bd98b621515c3b53a58c0c04bebc91badf1552d91b8919133306e1fdc274dc"
+    },
+    {
+      "source": "tecnologicos/caso-informacion-empresa/proyecto.png",
+      "destination": "public-sources/caso-informacion-empresa/proyecto.png",
+      "sha256": "4a83fa72756b8df58df509bcfc8c1d9b5aa6c4d76757fe9cedd757c0f18de789"
+    },
+    {
+      "source": "tecnologicos/caso-manual-cardiologia/TESIS.md",
+      "destination": "public-sources/caso-manual-cardiologia/TESIS.md",
+      "sha256": "53038bf64463fac00b625cc4d3d8244bbea6642768c2d3ba02ac982f634a7674"
+    },
+    {
+      "source": "tecnologicos/caso-manual-cardiologia/VERSION.json",
+      "destination": "public-sources/caso-manual-cardiologia/VERSION.json",
+      "sha256": "b796cada66f21a36a5443eb7dfd3a249a9f99742cc8011458efbf3e97a2888df"
+    },
+    {
+      "source": "tecnologicos/caso-manual-cardiologia/proyecto.png",
+      "destination": "public-sources/caso-manual-cardiologia/proyecto.png",
+      "sha256": "8ac6e0a6755775359b4fd195ef72b081d9920309df4e55611203ef825c776638"
+    },
+    {
+      "source": "tecnologicos/caso-scoring/TESIS.md",
+      "destination": "public-sources/caso-scoring/TESIS.md",
+      "sha256": "7fd75c8c3d725071cc685fd9f8e845b8d18b4ce53252426be5de3b0fd8d3e37b"
+    },
+    {
+      "source": "tecnologicos/caso-scoring/VERSION.json",
+      "destination": "public-sources/caso-scoring/VERSION.json",
+      "sha256": "b6f73e595fcef8d053f35f6284ff747d144407b58236184d5de8179624c2f9fc"
+    },
+    {
+      "source": "tecnologicos/caso-scoring/proyecto.png",
+      "destination": "public-sources/caso-scoring/proyecto.png",
+      "sha256": "9e8461e3a979c810f27a27defe6cfd9ed4a88efd9d62665d0e38e59d0e24d938"
+    },
+    {
+      "source": "tecnologicos/council/TESIS.md",
+      "destination": "public-sources/council/TESIS.md",
+      "sha256": "cbc50a4add7870b0b218e7991d9e5ae372626c1fe751954914b7854b892f6a5b"
+    },
+    {
+      "source": "tecnologicos/council/VERSION.json",
+      "destination": "public-sources/council/VERSION.json",
+      "sha256": "4bc147eb2612fc26ac8714724f004614d476357ecb6106bd37a6b4a7573c5334"
+    },
+    {
+      "source": "tecnologicos/council/proyecto.png",
+      "destination": "public-sources/council/proyecto.png",
+      "sha256": "f7a7c4b244b56d54dc73e10a377847dd6bf012afe341629eba1d5b1d3eb58c90"
+    },
+    {
+      "source": "tecnologicos/council-historico/TESIS.md",
+      "destination": "public-sources/council-historico/TESIS.md",
+      "sha256": "994856beed41790f817c79569b42d0e56c2b139eb1f03c269aafcc4353667c0f"
+    },
+    {
+      "source": "tecnologicos/council-historico/VERSION.json",
+      "destination": "public-sources/council-historico/VERSION.json",
+      "sha256": "5dab7867749549317cc8a50f237aafa98c31e37374663c71686ae52e9e797b57"
+    },
+    {
+      "source": "tecnologicos/council-historico/proyecto.png",
+      "destination": "public-sources/council-historico/proyecto.png",
+      "sha256": "c0fbe6c4bbed1427c6a28a9c7a92e78324c2d22545f3dc40b54120d16bb6ff04"
+    },
+    {
+      "source": "tecnologicos/gemelos-urbanos/TESIS.md",
+      "destination": "public-sources/gemelos-urbanos/TESIS.md",
+      "sha256": "25c9bb598dd39454e054b52e4395177226d0955d667cc3c159a7996377cc23bb"
+    },
+    {
+      "source": "tecnologicos/gemelos-urbanos/VERSION.json",
+      "destination": "public-sources/gemelos-urbanos/VERSION.json",
+      "sha256": "4076766ed2f7407a01f9e18b7b1fe478bd098f37bc0b99f9578a046554e5587a"
+    },
+    {
+      "source": "tecnologicos/gemelos-urbanos/proyecto.png",
+      "destination": "public-sources/gemelos-urbanos/proyecto.png",
+      "sha256": "123df1252d7f1bb500efd3fd7585a9f2484571a43d4b8ad3abb4a5278ffc8390"
+    },
+    {
+      "source": "tecnologicos/narrativa-herramientas/TESIS.md",
+      "destination": "public-sources/narrativa-herramientas/TESIS.md",
+      "sha256": "720cdbdd8f8b61fb0b7d6851e82b552cc69abbbf2af437e299a9df0811d45e22"
+    },
+    {
+      "source": "tecnologicos/narrativa-herramientas/VERSION.json",
+      "destination": "public-sources/narrativa-herramientas/VERSION.json",
+      "sha256": "b9a03b60c3c1d8777a0a49c2d0e20412602243382b52dec27b3d42d866767c9b"
+    },
+    {
+      "source": "tecnologicos/narrativa-herramientas/proyecto.png",
+      "destination": "public-sources/narrativa-herramientas/proyecto.png",
+      "sha256": "fdeba717a0faa8a284c0e8166f0bd7169e67bb8f9a8906564686c4046e75fe15"
+    },
+    {
+      "source": "tecnologicos/practica-agentes-servidor-personal/TESIS.md",
+      "destination": "public-sources/practica-agentes-servidor-personal/TESIS.md",
+      "sha256": "52cf2941d25c333c62fdd745a43829fcfcd4cf48d28e0adefac426072046de0d"
+    },
+    {
+      "source": "tecnologicos/practica-agentes-servidor-personal/VERSION.json",
+      "destination": "public-sources/practica-agentes-servidor-personal/VERSION.json",
+      "sha256": "4f6ac77c15427fc2c8f35a54f348d834398b93f000f3a30dec3fc5a2727534f8"
+    },
+    {
+      "source": "tecnologicos/practica-agentes-servidor-personal/proyecto.png",
+      "destination": "public-sources/practica-agentes-servidor-personal/proyecto.png",
+      "sha256": "adeeb94bdab520524b758d8fce9fbff353807a8d19ae61d8bad34cebd5b69735"
+    },
+    {
+      "source": "tecnologicos/senales-investigacion-online/TESIS.md",
+      "destination": "public-sources/senales-investigacion-online/TESIS.md",
+      "sha256": "7936bd4c40e19ec86f650f8876492d712c60d5f2b1f0f8c0b8b20b900c8a846f"
+    },
+    {
+      "source": "tecnologicos/senales-investigacion-online/VERSION.json",
+      "destination": "public-sources/senales-investigacion-online/VERSION.json",
+      "sha256": "fa59b59ebe523f672ff573a28035210e4ced92cda999c6133b2516a69574cf9f"
+    },
+    {
+      "source": "tecnologicos/senales-investigacion-online/proyecto.png",
+      "destination": "public-sources/senales-investigacion-online/proyecto.png",
+      "sha256": "b672220292cd7491dd031062672c51f26050db224bdaed55ca6f0102d647f6a8"
+    },
+    {
+      "source": "portfolio-web/build_manifest.json",
+      "destination": "build_manifest.json",
+      "sha256": "8ff6b59405229a5bd4aed74e6a8469f5e50b33954af85e672dc042f69a82f66c"
+    },
+    {
+      "source": "portfolio-web/content/annotations.json",
+      "destination": "content/annotations.json",
+      "sha256": "d261205a2be640644365ce5468fbaf6593da2f63df992e69ca196880a1bd4326"
+    },
+    {
+      "source": "portfolio-web/content/recruiting_context.json",
+      "destination": "content/recruiting_context.json",
+      "sha256": "3180c8f5f0e44f023b28380d490a2f96e7d883c6c1517a36cd13f57c2c0c75bb"
+    },
+    {
+      "source": "portfolio-web/web/data/corpus.json",
+      "destination": "web/data/corpus.json",
+      "sha256": "51c34f8860faf18a8d18ed0cf2c0b8269723593de788d30c7002154cf9c2d5d3"
+    },
+    {
+      "source": "portfolio-web/web/data/graph.json",
+      "destination": "web/data/graph.json",
+      "sha256": "c9b8d4b3ac6d7083bb19f264f6dcda197c8cfd5b249e18ad39a101792df17e44"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/adopcion-digital.webp",
+      "destination": "web/media/thumbnails/adopcion-digital.webp",
+      "sha256": "e367d76919b73aaf924323a5b812b57154a6b45e6a84fff42976fe8872a79da5"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/albacete-3d.webp",
+      "destination": "web/media/thumbnails/albacete-3d.webp",
+      "sha256": "ce6dc7b44837069c4c38a2741d2ee9041c9e6ad26496a57c93afdbd111469e17"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/almacen-hospital.webp",
+      "destination": "web/media/thumbnails/almacen-hospital.webp",
+      "sha256": "2132bc2090521519e493e1373d2250638828045b11327f9a13ecd727001e090f"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/alojamiento-larga-estancia.webp",
+      "destination": "web/media/thumbnails/alojamiento-larga-estancia.webp",
+      "sha256": "f325e9f337289fb443a2066206e53aa151972a2f8120fb88d67a9b30ff96c323"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/alojamiento-rural-concepto.webp",
+      "destination": "web/media/thumbnails/alojamiento-rural-concepto.webp",
+      "sha256": "71418164bab6b23158ea28ab500e01d94a7712b872bd9ee396c31ef04625013d"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/analisis-cultural-editorial.webp",
+      "destination": "web/media/thumbnails/analisis-cultural-editorial.webp",
+      "sha256": "ba9d5e7b19d3ee85a0c559eefa315be8284c4d0aa01200946ef07b6bb3f676ee"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/archivo-documental.webp",
+      "destination": "web/media/thumbnails/archivo-documental.webp",
+      "sha256": "802c6d926c194d61d1469c102eb8aa533afaf93885236bf3b674b68d45660ba7"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/auditoria-flujos-clinicos.webp",
+      "destination": "web/media/thumbnails/auditoria-flujos-clinicos.webp",
+      "sha256": "45e5f6fa92aca5c12a0b29985eb6b6a834b99979745bc7ec33bd260bdb66d458"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/auditoria-retrospectiva.webp",
+      "destination": "web/media/thumbnails/auditoria-retrospectiva.webp",
+      "sha256": "ecea00ae904450a611ec035d5533f137d7c1f753882fc101aa3b252c95eae018"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/automatizacion-oficios.webp",
+      "destination": "web/media/thumbnails/automatizacion-oficios.webp",
+      "sha256": "943c17eb1879632b5fa03cb7d77992c457736caf11bc2c7c43857b332ed29b5c"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/barrera-curas-sacras.webp",
+      "destination": "web/media/thumbnails/barrera-curas-sacras.webp",
+      "sha256": "cc63d84f0e778a6ad62c6353a0fbd18903e390d3250eaa35492bc90e64707448"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/bot-mercados.webp",
+      "destination": "web/media/thumbnails/bot-mercados.webp",
+      "sha256": "4a3c526d4449b3d7d6bcb772ffd6f271d1e8e2e42cff4aefd7744b93d6d74a59"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/bot-meteorologia.webp",
+      "destination": "web/media/thumbnails/bot-meteorologia.webp",
+      "sha256": "18c154e18aad85ff6a640c3490f7d5657264cc98fc23f3357049ca3baf8dc44a"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/busqueda-empleo.webp",
+      "destination": "web/media/thumbnails/busqueda-empleo.webp",
+      "sha256": "882a9e2ab6020e7235941a81654069dc9023dea65dbbaf849104b4e3f06d67d6"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/buzon-mejoras.webp",
+      "destination": "web/media/thumbnails/buzon-mejoras.webp",
+      "sha256": "f7368420e31bb8c040f87f6a5717476b82e86cfb8828129bb5f18951ea021b71"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/canales-distribucion.webp",
+      "destination": "web/media/thumbnails/canales-distribucion.webp",
+      "sha256": "7b046ee974e730a87a14da80ed4e65af30b8334c8bc2b55cbb5dff59bc7b3e1e"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/carro-paradas.webp",
+      "destination": "web/media/thumbnails/carro-paradas.webp",
+      "sha256": "83f325b96a6b1c5cc68e1525a96aa5d959c5c10f44ea7eb356c0341ea736a718"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/cartera-no-sanitaria.webp",
+      "destination": "web/media/thumbnails/cartera-no-sanitaria.webp",
+      "sha256": "4abc5ae392c5a62b16f72c5647d2092edd116c8325eaef68abd8c1ceac43c1a9"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/caso-analitica-salud.webp",
+      "destination": "web/media/thumbnails/caso-analitica-salud.webp",
+      "sha256": "5fa3e659c78a214b5dea579a5ee942adc81c3ceac851f84638bf2b3054d68634"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/caso-documentacion-clinica.webp",
+      "destination": "web/media/thumbnails/caso-documentacion-clinica.webp",
+      "sha256": "f3e8ecb9bc6831d0e49e67984f38f5c2b48ee61537cc08601d53e2c8ed589bb1"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/caso-informacion-empresa.webp",
+      "destination": "web/media/thumbnails/caso-informacion-empresa.webp",
+      "sha256": "efda419452a99086626a91f341e1320e8fadbe4328ec5465f38077c9c8b4dc97"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/caso-manual-cardiologia.webp",
+      "destination": "web/media/thumbnails/caso-manual-cardiologia.webp",
+      "sha256": "14b551aac02333ecd1dfc7a1733811ff92f2e3645bb0b082193dd65003b14581"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/caso-scoring.webp",
+      "destination": "web/media/thumbnails/caso-scoring.webp",
+      "sha256": "c41e0a5569b7ba20c6f2fa328006ee9fc082a84e9a710e215e84831b728835ac"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/casos-producto-candidaturas.webp",
+      "destination": "web/media/thumbnails/casos-producto-candidaturas.webp",
+      "sha256": "01c9b769792a520d0ac182f7aa98d33743461c7b150b8706fe564b0a4e7455aa"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/celdas-negocio.webp",
+      "destination": "web/media/thumbnails/celdas-negocio.webp",
+      "sha256": "9d124b8d584f367ef881ee4ad0a3cfa221e02d06ecb8c33124b12fd06783263d"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/centro-datos.webp",
+      "destination": "web/media/thumbnails/centro-datos.webp",
+      "sha256": "d6a6db6441e942c97a80e7ec39e64ccf2b91903bb08ea445eb9bba81f440e330"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/chiarezza.webp",
+      "destination": "web/media/thumbnails/chiarezza.webp",
+      "sha256": "a09d29105546eae4583bb94b4020a5829fd7be6940948285681887f30c649941"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/chocolate-3d.webp",
+      "destination": "web/media/thumbnails/chocolate-3d.webp",
+      "sha256": "f910c26705f6c61db48648bd14a35dc219f5d162db2ea1c25e025282a29b5296"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/ciencia-perdida.webp",
+      "destination": "web/media/thumbnails/ciencia-perdida.webp",
+      "sha256": "4249c0e67ea9339854301aa6b2ffe5979aedd63aa2f92c50d21851e5a6ed336b"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/comercio-local-virtual.webp",
+      "destination": "web/media/thumbnails/comercio-local-virtual.webp",
+      "sha256": "a1e1b68e90e6ff63f3d98fb0580957941be1f0eb38bb7f1023d04a84e8e6d953"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/comision-ia.webp",
+      "destination": "web/media/thumbnails/comision-ia.webp",
+      "sha256": "1b00673f37b30ad84d6cabf44947494db9734b3426e33b465211795f71f41bc2"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/comparacion-iniciativas.webp",
+      "destination": "web/media/thumbnails/comparacion-iniciativas.webp",
+      "sha256": "83db80b644c711d75a8e98bb47ae0cf09b1d429771f9b94a527fba566e72bc00"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/conexiones-financieras.webp",
+      "destination": "web/media/thumbnails/conexiones-financieras.webp",
+      "sha256": "ba10055626b5a401cdb8010ed7e84f8adcc97303f9b68fc2b2413bc7a97cf2be"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/consolidacion-fiscal.webp",
+      "destination": "web/media/thumbnails/consolidacion-fiscal.webp",
+      "sha256": "2dedd31c667f8938b24f643949bc081b4611867f33c38af43db064f54cfb3d6d"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/council-historico.webp",
+      "destination": "web/media/thumbnails/council-historico.webp",
+      "sha256": "2bd9090cc4a7ab2036c6ad7925de1f93640de7bba1bffdc2df1f47e47aed9158"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/council.webp",
+      "destination": "web/media/thumbnails/council.webp",
+      "sha256": "eca65190fb1f35847d6260988b0984ebaf1f9f68e6bc28961e5f630163253c00"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/cribado-financiero.webp",
+      "destination": "web/media/thumbnails/cribado-financiero.webp",
+      "sha256": "939faab2962763678e131cb2f316901cb5014408f28e81d972c519d664615c98"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/doctorado-china-antecedente.webp",
+      "destination": "web/media/thumbnails/doctorado-china-antecedente.webp",
+      "sha256": "1bc8362de169ab6c2f703221232895a3570f5b5ad590327db2f9bbd224961912"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/doctorado-china.webp",
+      "destination": "web/media/thumbnails/doctorado-china.webp",
+      "sha256": "5936b2e169990ed45a00b7484d045f57eee02d8f5ed557686e11ae41d83ed827"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/ehr-interfaz.webp",
+      "destination": "web/media/thumbnails/ehr-interfaz.webp",
+      "sha256": "3f20f8e7f09875efd5cfa13dd7660a4522cde1b963fa067d473b7dda4b8df1d1"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/entrevistas-metodo.webp",
+      "destination": "web/media/thumbnails/entrevistas-metodo.webp",
+      "sha256": "a32662be5101ac8ab67362566536c099a33cc1f91f677dfa051ae54473b2a484"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/evolucion-hipotesis-negocio.webp",
+      "destination": "web/media/thumbnails/evolucion-hipotesis-negocio.webp",
+      "sha256": "d421903a26e84f78b1a50ac4339f8a77b66c411e70405ab4fa12f04c9ef90bdc"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/finanzas-personales-app.webp",
+      "destination": "web/media/thumbnails/finanzas-personales-app.webp",
+      "sha256": "69834a270599bf62e85ccdb5e42692fbe3886344d84d4c0cec6280394039fc91"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/fiscalidad-estancias-laborales.webp",
+      "destination": "web/media/thumbnails/fiscalidad-estancias-laborales.webp",
+      "sha256": "b6eebbf5ce32d918921061f9245d98fd84b86c78c7c42d13d2e8f428e2b7e821"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/gemelos-urbanos.webp",
+      "destination": "web/media/thumbnails/gemelos-urbanos.webp",
+      "sha256": "a13c432dc5596aefd5077cd8b0a42ab7d92c33560f1aac91f27c2c1320bee185"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/gestion-financiera-metodo.webp",
+      "destination": "web/media/thumbnails/gestion-financiera-metodo.webp",
+      "sha256": "6d63d4cb8d7ff6f28a768529e3661077ae8f7fd64094adc24d259ae5f5bcbedd"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/gobierno-ia.webp",
+      "destination": "web/media/thumbnails/gobierno-ia.webp",
+      "sha256": "64df4826a55141025d946cedd743ce1216a48bb2f0e08ac87e56fa75c365590f"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/historial-activos-metodo.webp",
+      "destination": "web/media/thumbnails/historial-activos-metodo.webp",
+      "sha256": "6e8c7a2694a30e9f11fac3ce80de22a009872dfdbf17d4e730e627a224dba0b6"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/ideas-aparcadas.webp",
+      "destination": "web/media/thumbnails/ideas-aparcadas.webp",
+      "sha256": "8b37c09e8c601e22a4b69c5d80e7877fabbfb7497a8836176744581fe2e13dbb"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/idioma-healthtech.webp",
+      "destination": "web/media/thumbnails/idioma-healthtech.webp",
+      "sha256": "bd2cc36ad7d2b3c5ce6db35c672a3f3e2c376dcbd593e33a53c175ff318c842b"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/impresion-uv.webp",
+      "destination": "web/media/thumbnails/impresion-uv.webp",
+      "sha256": "f78e7bdaaf9a54221b849c69c2c4a5b446839c5985b2330a9e52f598f50d68d3"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/instalacion-asic.webp",
+      "destination": "web/media/thumbnails/instalacion-asic.webp",
+      "sha256": "ed2337fdf8f9571780634a1b557469106a2e28dd897f14f29eb7f87680be7bc2"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/inventario-activos-metodo.webp",
+      "destination": "web/media/thumbnails/inventario-activos-metodo.webp",
+      "sha256": "18b29f2658954496c46e45c0e80ed3b0b86769679cab3107db59f44595e60e62"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/jams-formacion.webp",
+      "destination": "web/media/thumbnails/jams-formacion.webp",
+      "sha256": "4462d5c84cef2bf2af4a340616d5a64916b997c380f5ac28c7e3c8de56786291"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/jev-clinico.webp",
+      "destination": "web/media/thumbnails/jev-clinico.webp",
+      "sha256": "f2d67740e06ac03758fc4b73b451240ab6b52f2ea1758df85305a63ec9c419a6"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/juegos-cartas-mecanicas.webp",
+      "destination": "web/media/thumbnails/juegos-cartas-mecanicas.webp",
+      "sha256": "9cbecae0a0a939aa853d38d4f68d4162a485ca566db4aca5da1ac7bf6b21dbdb"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/lidia.webp",
+      "destination": "web/media/thumbnails/lidia.webp",
+      "sha256": "3c5a745a92a64cdcf0266a9816097865a1c96d0437eb8e5be4de9f0fd34e4d1d"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/modelos-negocio-discovery.webp",
+      "destination": "web/media/thumbnails/modelos-negocio-discovery.webp",
+      "sha256": "43b85720515fa4ba8a3c9896b11b8ef329aa33bcbddfec8a1ba5b7adbd5527ef"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/narrativa-herramientas.webp",
+      "destination": "web/media/thumbnails/narrativa-herramientas.webp",
+      "sha256": "50f54fc885c98ae88fe160936ed297a5cca943799591388721e410b8988c7682"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/one-piece-teoria.webp",
+      "destination": "web/media/thumbnails/one-piece-teoria.webp",
+      "sha256": "60632728e9d2becc4563becc9b24e22831982c95d6f738a0800b4be73fe9a20c"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/ope-baremacion.webp",
+      "destination": "web/media/thumbnails/ope-baremacion.webp",
+      "sha256": "8972202b59d09f706eac3141184695f5d728ecdd05139d7fac97b64ee9d0b90d"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/oposiciones-enfermeria.webp",
+      "destination": "web/media/thumbnails/oposiciones-enfermeria.webp",
+      "sha256": "8a842fef1482d69128dd5846a6a311e414a716b3f1a3dc1b495bc7602c781d02"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/orientacion-hospital.webp",
+      "destination": "web/media/thumbnails/orientacion-hospital.webp",
+      "sha256": "7a10cccbc2ccedc6262f731d49b79d337b390f1f2ac2a882c12c4c018f6e4fc6"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/perfil-contexto.webp",
+      "destination": "web/media/thumbnails/perfil-contexto.webp",
+      "sha256": "21e4539b7f7b96190ce9f170894993709976620df32c89845a076b3c8ce75b02"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/perfume-dispensacion.webp",
+      "destination": "web/media/thumbnails/perfume-dispensacion.webp",
+      "sha256": "2aeca6ff75e601c265ed452464bfcb825b5ec01cc73fed2fd70c37bf169258a8"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/practica-agentes-servidor-personal.webp",
+      "destination": "web/media/thumbnails/practica-agentes-servidor-personal.webp",
+      "sha256": "b45c36ef4c20f015a7f56d3bf90a84b6c69b7e57330d46b906ed016bf3fbbc58"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/preparacion-proyectos.webp",
+      "destination": "web/media/thumbnails/preparacion-proyectos.webp",
+      "sha256": "8990959c84287fde7630d7c4930e71820cddd0c00064f74ace24edc1be80e19c"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/reforma-educativa.webp",
+      "destination": "web/media/thumbnails/reforma-educativa.webp",
+      "sha256": "3fae6423d9d99b0722bcb7f2f2cf27bfaefff3a122b2e981bfc79406eb90130d"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/robotica-cadena-valor.webp",
+      "destination": "web/media/thumbnails/robotica-cadena-valor.webp",
+      "sha256": "47bb47276048d13bbafcc1a358baec0a72c5c16cf159dfeb43d2106ecf88e332"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/senales-investigacion-online.webp",
+      "destination": "web/media/thumbnails/senales-investigacion-online.webp",
+      "sha256": "29cd8b02a0b99754f49050b581e8341217d3ff1ae00a380e5071b24255c5b33b"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/servicios-digitales-practica.webp",
+      "destination": "web/media/thumbnails/servicios-digitales-practica.webp",
+      "sha256": "5b4bf1bad558f89111c5d219037257a2f41c5f4362586153eebbfc592d4c9f53"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/servicios-online.webp",
+      "destination": "web/media/thumbnails/servicios-online.webp",
+      "sha256": "ac1c6d63628c57a8d4a65e37054d93acde6335015058c61c8c50a89045914ccc"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/smarthandover.webp",
+      "destination": "web/media/thumbnails/smarthandover.webp",
+      "sha256": "b5505103e9fec339efa82f8896fba9ab4ada7d053be04ffd958d8383ace7f04d"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/tareas-programadas-agentes.webp",
+      "destination": "web/media/thumbnails/tareas-programadas-agentes.webp",
+      "sha256": "a922a300c9081b0e1fb2f049f732e94a1412d95940914c2dc9feb742fb397656"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/tecnologia-china-espana.webp",
+      "destination": "web/media/thumbnails/tecnologia-china-espana.webp",
+      "sha256": "f41063e02a9bccf69ea634528dd331091a5295d9259dd32ba8b608ae5f8c0a5a"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/tfm-tecnologias-salud.webp",
+      "destination": "web/media/thumbnails/tfm-tecnologias-salud.webp",
+      "sha256": "d4238939b7f625cbfaa9e85cf365f2639dee22142e5866a0878b459a32615e50"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/tres-vias-desarrollo.webp",
+      "destination": "web/media/thumbnails/tres-vias-desarrollo.webp",
+      "sha256": "59fc263dbd2c4d47c7bf635f4e2ab4753dd59fe2aa434db9006b2b0552b06581"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/triaje-colapso.webp",
+      "destination": "web/media/thumbnails/triaje-colapso.webp",
+      "sha256": "3eab4ecdb9a99da975d12b13d938c8179ffb79d393d5167e8898f7309b6479df"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/tutor-familias.webp",
+      "destination": "web/media/thumbnails/tutor-familias.webp",
+      "sha256": "dad0fc6719ea153f52f6803a3554ec8fd15615c5085bbbf3a5f697d2398263a6"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/video-inmobiliario.webp",
+      "destination": "web/media/thumbnails/video-inmobiliario.webp",
+      "sha256": "265977deed2d737b38b412c01ba1f7ee33e3fdb9d4507a6c626a192e84b7029e"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/videos-prototipos.webp",
+      "destination": "web/media/thumbnails/videos-prototipos.webp",
+      "sha256": "2df56f0ed15d707a3e8c748b8cf8c87d7f6c3c8c7cca1bec35a493602027239d"
+    },
+    {
+      "source": "portfolio-web/web/media/thumbnails/zeclana.webp",
+      "destination": "web/media/thumbnails/zeclana.webp",
+      "sha256": "4fdb1c016edc56ec425f1fa9ce9eb3035dcbb2ef2d945f801827b35557ae7a62"
+    }
+  ],
+  "publication_approved": false
+}

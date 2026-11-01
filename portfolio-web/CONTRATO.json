@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "app": "Novus Motus · Ideas y capacidades",
+  "corpus_count": 82,
+  "source_base": "../documentacion-por-proyecto/portfolio-tesis",
+  "artifacts": {
+    "annotations": "content/annotations.json",
+    "compiled_corpus": "web/data/corpus.json",
+    "compiled_graph": "web/data/graph.json",
+    "frontend": ["web/index.html", "web/app.js", "web/styles.css"],
+    "backend": "server.py",
+    "retrieval": "rag_engine.py"
+  },
+  "annotations_contract": {
+    "top_level": ["schema_version", "created_at", "model", "capabilities", "topics", "projects", "cross_relations"],
+    "capability": {"id": "analisis-procesos", "label": "Análisis de procesos", "description": "Qué decisiones o acciones consultar; no evaluación psicométrica."},
+    "topic": {"id": "continuidad-informacion", "label": "Continuidad de información"},
+    "project": {"id": "smarthandover", "topics": [{"id": "continuidad-informacion", "reason": "Relación temática interpretada a partir del pasaje", "quote": "Cita exacta no vacía del cuerpo de TESIS.md", "section": "Título exacto de sección"}], "capabilities": [{"id": "analisis-procesos", "reason": "Qué razonamiento permite explorar; no acredita desempeño", "quote": "Cita exacta atribuida", "section": "Título exacto", "attribution": "javier_descrito|asistente|no_confirmado", "claim_type": "propuesta|razonamiento_documentado|actuacion_declarada", "origin": "interpretacion_ia", "user_review": "pending"}]},
+    "cross_relation": {"source": "gobierno-ia", "target": "reforma-educativa", "type": "contrasta_con|comparte_enfoque|posible_transferencia", "label": "Explicación específica", "origin": "interpretacion_ia", "user_review": "pending", "evidence": [{"project_id": "gobierno-ia", "quote": "Cita exacta", "section": "Título exacto"}, {"project_id": "reforma-educativa", "quote": "Cita exacta", "section": "Título exacto"}]}
+  },
+  "compiled_contract": {
+    "corpus": {"schema_version": 1, "generated_at": "ISO date", "projects": [{"id": "string", "title": "string", "area": "string", "area_label": "string", "version": "string", "source_sha256": "sha256", "image_url": "/media/ID.png", "image_caption": "string", "source_url": "/tesis/ID", "summary": {"purpose": "string", "contribution": "string", "evidence": "string", "limits": "string"}, "sections": [{"id": "ID-s01", "heading": "string", "text": "string", "start_line": 1, "end_line": 2, "searchable": true}], "capability_ids": ["string"], "topic_ids": ["string"]}], "capabilities": [], "topics": []},
+    "graph": {"schema_version": 1, "nodes": [{"id": "project:ID|capability:ID|topic:ID", "kind": "project|capability|topic", "label": "string", "project_id": "optional", "area": "optional"}], "edges": [{"id": "string", "source": "node ID", "target": "node ID", "type": "explora_capacidad|trata_idea|contrasta_con|comparte_enfoque|posible_transferencia", "label": "string", "origin": "interpretacion_ia", "user_review": "pending", "claim_type": "string", "attribution": "string", "evidence": [{"project_id": "ID", "section_id": "ID-s01", "quote": "exact", "source_version": "version", "source_sha256": "hash", "start_line": 1, "end_line": 2}]}]}
+  },
+  "http": {
+    "GET /api/status": {"corpus_count": 82, "generation": {"available": true, "provider": "codex|ollama|openai|none", "model": "actual model or not_confirmed"}},
+    "POST /api/search": {"request": {"query": "string", "area": "optional area ID", "capability": "optional capability ID", "limit": 8}, "response": {"query": "string", "results": [{"citation_id": "S1", "project_id": "ID", "title": "string", "heading": "string", "quote": "retrieved passage", "section_id": "string", "version": "string", "source_url": "/tesis/ID#section"}], "has_evidence": true}},
+    "POST /api/ask": {"request": {"query": "string", "area": "optional", "capability": "optional"}, "response": {"answer": "string", "claims": [{"text": "string", "citation_ids": ["S1"]}], "sources": [], "provider": "string", "model": "actual or no_confirmado", "grounded": true, "abstained": false}},
+    "GET /api/project/ID": "compiled project plus its edges",
+    "GET /tesis/ID": "Full local source with section anchors and project relations",
+    "GET /media/ID.png": "Only exact whitelisted conceptual project image"
+  }
+}
