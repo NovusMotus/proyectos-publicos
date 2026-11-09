@@ -1,0 +1,67 @@
+{
+  "libraries": [
+    {
+      "license": "MIT",
+      "name": "onnxruntime-web",
+      "notices": "licencias/onnxruntime-ThirdPartyNotices.txt",
+      "source": "https://github.com/microsoft/onnxruntime/tree/v1.31.1/js/web",
+      "version": "1.31.1"
+    },
+    {
+      "license": "Apache-2.0",
+      "license_copy": "licencias/tokenizers-LICENSE.txt",
+      "name": "@huggingface/tokenizers",
+      "source": "https://github.com/huggingface/tokenizers.js",
+      "version": "0.2.0"
+    }
+  ],
+  "model": {
+    "bytes": 235052644,
+    "declared_licence": "Apache-2.0 in model-card metadata; not an independent guarantee of all training data or other rights",
+    "download_url": "https://huggingface.co/Qdrant/paraphrase-multilingual-MiniLM-L12-v2-onnx-Q/resolve/faf4aa4225822f3bc6376869cb1164e8e3feedd0/model_optimized.onnx",
+    "included_in_Git": false,
+    "permitted_final_response_origins": [
+      "https://huggingface.co",
+      "https://us.aws.cdn.hf.co"
+    ],
+    "redirect_validation_limit": "The browser follows redirects. Code checks the final response origin, exact byte size and SHA-256; it does not pre-validate every intermediate redirect. A static GitHub Pages deployment does not establish an OS-level network boundary or a CSP response header for this external Worker.",
+    "repository": "Qdrant/paraphrase-multilingual-MiniLM-L12-v2-onnx-Q",
+    "revision": "faf4aa4225822f3bc6376869cb1164e8e3feedd0",
+    "sha256": "634d0f66c29dc934c8fa72b8a4fe91dd4d420a22f1d82a241058d4316e659a99"
+  },
+  "private_data_included": false,
+  "schema": "public-portfolio-third-party-assets/1",
+  "shipped_dependency_files": [
+    {
+      "bytes": 17083009,
+      "path": "browser/model/tokenizer.json",
+      "sha256": "fa685fc160bbdbab64058d4fc91b60e62d207e8dc60b9af5c002c5ab946ded00"
+    },
+    {
+      "bytes": 1416,
+      "path": "browser/model/tokenizer_config.json",
+      "sha256": "0666eebf692422757e1dddf3c9fb1ded73ba3dc726c5828671fc89e45bf3609f"
+    },
+    {
+      "bytes": 24738,
+      "path": "browser/vendor/ort-wasm-simd-threaded.mjs",
+      "sha256": "30ed0b5cd1182ede931fea448afb567d4dc705ec957af09f108a2be5f770dac3"
+    },
+    {
+      "bytes": 14848852,
+      "path": "browser/vendor/ort-wasm-simd-threaded.wasm",
+      "sha256": "4b884c203b0fa48d057be3332c65513ff85aa3c5bddd6946acc0fab7ecda001d"
+    },
+    {
+      "bytes": 53725,
+      "path": "browser/vendor/ort.wasm.min.mjs",
+      "sha256": "c21d9c326d453a4a61398270c804d5979e118540597cb0c07f7b3d64e6098234"
+    },
+    {
+      "bytes": 98937,
+      "path": "browser/vendor/tokenizers.mjs",
+      "sha256": "1c4a848f86156201c033d6cd08c4cf81ae1088552acec3367f31ef086edf5af0"
+    }
+  ],
+  "source_corpus": "The frozen public corpus retains its original source dates, model attribution, citations and limitations. No new blanket licence for user-authored work is granted by these third-party notices."
+}
