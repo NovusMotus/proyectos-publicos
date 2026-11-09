@@ -1,0 +1,67 @@
+{
+  "schema": "portfolio-motion-provenance/1",
+  "version": "r185-r5",
+  "created_date": "2026-11-09",
+  "illustration": {
+    "path": "panorama-conceptual-r120.png",
+    "sha256": "61e0acf13e4544e58c4eb80eec2d214b0bfae99da3e97185f13f51ee82dbab79",
+    "tool": "image_gen",
+    "model": "no_confirmado",
+    "new_generation": false,
+    "unchanged_source_bytes": true
+  },
+  "composition": {
+    "tool": "Codex desktop",
+    "provider": "OpenAI",
+    "model": "gpt-6.1-sol",
+    "model_evidence": "Active chat turn_context instrumentation; not billing verification",
+    "recorded_utc": "2026-11-09T18:25:42.020147+00:00",
+    "renderer": "Blender 5.2.2 LTS",
+    "renderer_build": "d13f752e3b9c",
+    "engine": "Cycles CPU, 8 samples, 2 threads",
+    "original_artistic_direction": "Javier García Játiva"
+  },
+  "integration": {
+    "tool": "Codex desktop",
+    "provider": "OpenAI",
+    "model": "gpt-6.1-sol",
+    "model_evidence": "Active chat turn_context instrumentation, not billing verification",
+    "recorded_utc": "2026-11-09T18:50:35.400708+00:00",
+    "python_version": "3.12.14"
+  },
+  "composition_review": {
+    "model": "gpt-6-astra",
+    "scope": "Static composition, geometry and selected decoded frames; not artistic acceptance, continuous playback or browser/device validation",
+    "date": "2026-11-09"
+  },
+  "files": [
+    {
+      "bytes": 612160,
+      "sha256": "218f35b1c4ac61e17c0cf756acffd8852ffa426f6fdd675755aa80889862d36b",
+      "path": "poster-escritorio-r185-r5.png"
+    },
+    {
+      "bytes": 691219,
+      "sha256": "b5bccf8c06eebbdf3fc33d58cea9648b292cb8b194f40e02cf26404bb0829bad",
+      "path": "poster-movil-r185-r5.png"
+    },
+    {
+      "bytes": 1639801,
+      "sha256": "68dc169a2255e3fe2d828506e2d2abf9078c805e31245fe1724eeca8faef1f81",
+      "path": "presentacion-escritorio-r185-r5.mp4"
+    },
+    {
+      "bytes": 1847845,
+      "sha256": "f2f1eaacffe2c6da082bf0574c0dde4416c6880b51702e1a2c176d252a72e26a",
+      "path": "presentacion-movil-r185-r5.mp4"
+    }
+  ],
+  "fonts": "Segoe UI regular and bold, rendered glyphs; font files not redistributed",
+  "audio": false,
+  "source_dates_and_models_replaced": false,
+  "previous_versions_retained": [
+    "presentacion-escritorio-r2.mp4",
+    "presentacion-movil-r2.mp4"
+  ],
+  "scope_notice": "Conceptual illustration and presentation; no evidence of implementation or accredited personal skills."
+}
