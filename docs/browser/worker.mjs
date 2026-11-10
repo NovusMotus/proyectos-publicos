@@ -29,7 +29,7 @@ const decode=b=>JSON.parse(new TextDecoder().decode(b));
 async function prepare(){
   if(preparing||ready)throw Error('already_preparing');
   preparing=true;
-  const pins=decode(await pinned('./ASSETS.json',{bytes:220,sha256:'061ca9754302addda4b2bae3ed0e788d2bce48d7290d0a32b051b169cc3a4177'},'comprobando índice'));
+  const pins=decode(await pinned('./ASSETS.json',{bytes:220,sha256:'db720308490a715f5893fce9421f25acbce73bfac47e5935716b009726563f41'},'comprobando índice'));
   const config=decode(await pinned('./RETRIEVAL.json',pins['RETRIEVAL.json'],'preparando filtros y relaciones'));
   const rawVectors=await pinned('./vectors.f32',pins['vectors.f32'],'comprobando vectores');
   if(new Uint8Array(new Float32Array([1]).buffer)[3]!==63)throw Error('unsupported_endian');
