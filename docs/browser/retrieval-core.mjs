@@ -1,4 +1,4 @@
-// Port of the pinned public121 BM25/RRF/context policies; no generation or IO.
+// Port of the pinned public124 BM25/RRF/context policies; no generation or IO.
 const cmp=(a,b)=>String(a)<String(b)?-1:String(a)>String(b)?1:0;
 const copy=x=>structuredClone(x);
 const STOP=new Set('a al algo ante como con cual cuando de del desde donde el ella ellas ellos en entre era es esa ese eso esta este esto ha hay la las le les lo los mas me mi muy no nos o para pero por porque que quien se sin sobre su sus te tu un una unas uno unos y ya the a an and are as at be by for from how in is it of on or our that the their them there these this to was we what when where which who with you your'.split(' '));
@@ -30,7 +30,7 @@ function fuse(rankings){
 }
 export function createRetriever(config,vectors){
   const {documents,chunks,overlay,contract,normalization_table:table}=config;
-  if(documents.length!==121||chunks.length!==2641||vectors.length!==2641*384||new Set(chunks.map(c=>c.id)).size!==2641)throw Error('retrieval_scope');
+  if(documents.length!==124||chunks.length!==2663||vectors.length!==2663*384||new Set(chunks.map(c=>c.id)).size!==2663)throw Error('retrieval_scope');
   for(let i=0;i<chunks.length;i++){let sq=0;for(let j=0;j<384;j++){const v=vectors[i*384+j];if(!Number.isFinite(v))throw Error('vector_nonfinite');sq+=v*v;}if(Math.abs(Math.sqrt(sq)-1)>1e-5)throw Error('vector_norm');}
   const docs=new Map(documents.map(d=>[d.id,d])),nodes=new Map(overlay.nodes.map(n=>[n.id,n]));
   const projects=new Map(documents.filter(d=>d.type==='thesis').map(d=>[d.project_id,d]));
@@ -98,19 +98,19 @@ export function createRetriever(config,vectors){
       alternatives.push(annotate(hit,channel));
     }
     return {schema:contract.response_schema,primary_response_schema:contract.primary_response_schema,created_utc:new Date().toISOString(),query,mode,kind,skill_filter:skill,
-      corpus_sha256:contract.corpus_sha256,source_documents_in_snapshot:121,eligible_source_documents:new Set(eligible.map(i=>chunks[i].source_id)).size,
+      corpus_sha256:contract.corpus_sha256,source_documents_in_snapshot:124,eligible_source_documents:new Set(eligible.map(i=>chunks[i].source_id)).size,
       model:contract.model,model_revision:contract.model_revision,rrf:{zero_based_k:60,document_fusion:mode==='hybrid',passage_fusion:mode==='hybrid'},bm25:{k1:1.5,b:.75,title_included_once_per_chunk:true,stemming:false},
       graph:copy(contract.graph),elapsed_query_seconds:(performance.now()-started)/1000,embedding_inference_used:mode!=='lexical',python_socket_guard_enabled:false,execution_environment:'browser_worker_wasm',
       retrieved_context_is_untrusted_data:true,generative_answer:false,personal_skills_accredited:false,answerability_established:false,
-      snapshot_mode:'public-memory-PR7-121',corpus_updated_without_new_Grok_execution:true,source_snapshots:copy(contract.source_snapshots),chunk_selection_policy:contract.chunk_selection_policy,
+      snapshot_mode:'public-memory-R200-124',index_preparation_did_not_execute_Grok:true,source_snapshots:copy(contract.source_snapshots),chunk_selection_policy:contract.chunk_selection_policy,
       context_policy:contract.context_policy,query_embedding_calls:mode==='lexical'?0:1,
       context_bm25_input:'literal_body_text_without_title_prefix',context_requires_extra_query_embedding:false,context_sufficiency_established:false,
       ranking_algorithm_preserved_from_115:true,ranking_unchanged_from_115:false,results,retrieval_alternatives:alternatives,alternative_policy:contract.alternative_policy,
       result_budget:{primary_requested:6,primary_returned:results.length,maximum_extra_sources:mode==='hybrid'?2:0,extra_sources_returned:alternatives.length,channels_returned:alternatives.map(h=>h.alternative_selection.channel),channel_selection_order:mode==='hybrid'?['lexical','dense']:[]},
-      source_snapshot_notice:'Fixed public121 snapshot; source dates/models remain unchanged. Not live repository synchronization.',
+      source_snapshot_notice:'Fixed public124 snapshot; source dates/models remain unchanged. Not live repository synchronization.',
       context_notice:'Literal same-source passages, candidate only; no generated answer or sufficiency finding.',
       alternatives_notice:'Separate optional channel sources; larger budget, no general relevance guarantee.',
-      client_contract:'browser public121 with explicit WASM provenance; same retrieval policies, not a Python socket guard.'};
+      client_contract:'browser public124 with explicit WASM provenance; same retrieval policies, not a Python socket guard.'};
   }
   return {query};
 }

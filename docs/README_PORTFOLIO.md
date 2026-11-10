@@ -1,11 +1,11 @@
 # Portfolio público de Novus Motus
 
-Edición web preparada el 9 de noviembre de 2026 con 82 tesis de nueve ámbitos, 38 documentos de memoria y un fragmento web. La memoria conserva la instantánea PR7; no se presenta como todo el historial ni como la última memoria compartida.
+Edición de búsqueda preparada el 10 de noviembre de 2026: 124 fuentes públicas fijadas por commit, con 82 tesis, 41 documentos de memoria y un extracto web. La memoria corresponde a a0af0dcf59bbb6daa83640f464617114e656feae; las tesis conservan a7531c50e14b1073581dfb111c2a9c123f0f90d9.
 
-La biblioteca, el grafo y las aptitudes se exploran sin activar el modelo. La recuperación opcional descarga aproximadamente 280 MB; solo el modelo ONNX procede de Hugging Face/CDN. La consulta se calcula en el navegador. No hay conexión a fuentes privadas ni API de inferencia. Condiciones y avisos: [créditos](creditos.html).
+La búsqueda y el grafo muestran pasajes y asociaciones documentales. No generan respuestas ni acreditan aptitudes, experiencia, causalidad o suficiencia del contexto. Las fechas, herramientas y modelos de los autores se conservan; los estados históricos de las notas no son un panel en tiempo real. El corpus incluye la nota del piloto nativo de Grok incorporada mediante PR12; eso no demuestra integración de todos los perfiles o clientes.
 
-No abrir el HTML como file:// para probar Workers: servir esta carpeta con un servidor estático. La configuración propuesta de GitHub Pages es main/docs; un archivo subido o una rama creada no acreditan que el sitio esté desplegado. No usar Git LFS para sustituir el ONNX: la edición solicita su revisión pública fijada directamente.
+La búsqueda avanzada es opcional y conserva los mismos archivos, modelo y orígenes de descarga de la edición anterior. Descarga aproximadamente 280 MB desde Hugging Face/CDN, cuyos servidores reciben la IP y los metadatos de descarga. La consulta y el cálculo de búsqueda se realizan en el navegador; no se envía la consulta al proveedor del modelo. Consulta los avisos y licencias incluidos.
 
-Preparación: Codex desktop; gpt-6.1-sol según metadatos del runtime de la contribución. Se conservan los modelos y fechas históricos del corpus. Revisión de la entrega y evidencias operativas se registran aparte; este README no acredita una sincronización global de agentes ni funcionamiento del Mac con el PC apagado.
+La presentación audiovisual, sus controles, las imágenes y el estilo se conservan exactamente respecto a la edición pública anterior. La preparación local de esta edición no publica ni instala, no cambia permisos o accesos y no añade fuentes privadas. No hay actualización automática del corpus desde main.
 
-Esta es una copia local121 separada de la entregaR173 pendiente. No cambia su lista ni autoriza publicación o instalación. Las asociaciones históricas conservan su pin y sus límites; el grafo de memoria PR7 se conserva aparte.
+Preparación de esta edición: Codex desktop/OpenAI, modelo gpt-6.1-sol, según declaración del runtime de esta preparación; no es atestación externa. Las atribuciones históricas de cada fuente permanecen intactas.
