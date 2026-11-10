@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "status": "approved",
+  "id": "83991068-fd96-485a-bf47-047b61a95090",
+  "repository": "NovusMotus/proyectos-publicos",
+  "ref": "refs/heads/cerebro/recepcion-publica",
+  "approval_record": "urn:sha256:fc28eb65fb71f48128b286e802f41a25f3429b6c54f5dbd2d87caf9f1bac46f0",
+  "notes": [
+    {
+      "id": "62ef7511-afd6-4ce5-80b3-b972f3989d95",
+      "sha256": "42cacf8affa9be1a1795acbc12d3a8a5a0bfe3251d7529db09189b2ea96912d4",
+      "review": {
+        "reviewer": "Independent AI reviewer; not human approval",
+        "tool": "Codex subagent",
+        "model": "gpt-6-astra",
+        "reviewed_at": "2026-11-10T16:10:56Z",
+        "scope": "Independent local code/workflow and exact R2 export review for UUID 62ef7511; local tests inspected; no deployment or autonomous sender attestation",
+        "record": "urn:sha256:ce13b45b08a7c086669a1139f0a0ecaa4d90c497b3265ea5ac30f30073fd842d"
+      },
+      "public_review_sha256": "36aa421fb931c7153c133b31df4d78caaa931159495eb0f26d4238ebedb2c95d"
+    }
+  ]
+}
