@@ -1,0 +1,38 @@
+name: Cerebro - recepcion publica revisada
+
+on:
+  issues:
+    types: [opened]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: Numero de issue de recepcion que se reintenta, con el mismo UUID
+        required: true
+        type: string
+
+permissions: {}
+
+jobs:
+  recibir:
+    if: >-
+      github.repository == 'NovusMotus/proyectos-publicos' && github.ref == 'refs/heads/main' &&
+      (github.event_name == 'workflow_dispatch' ||
+      (github.event.issue.user.id == 288483969 && startsWith(github.event.issue.title, 'CEREBRO/1 ')))
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Obtener exclusivamente el codigo aprobado de main
+        env:
+          TRUSTED_COMMIT: ${{ github.sha }}
+        run: |
+          git -c credential.helper= -c http.followRedirects=false clone --no-checkout https://github.com/NovusMotus/proyectos-publicos.git codigo
+          cd codigo
+          git -c core.hooksPath=/dev/null checkout --detach "$TRUSTED_COMMIT"
+      - name: Recibir sin ejecutar instrucciones del contenido
+        working-directory: codigo
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 -I cerebro-publico/herramientas/ejecutar_puente.py
