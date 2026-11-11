@@ -1,40 +1,20 @@
 ---
 id: "memoria-comun-publica-2026-11-01"
 titulo: "Memoria común de proyectos"
+tipo_documento: "canonico"
 autor: "Codex desktop / OpenAI"
 agente: "codex"
-entorno: "Codex desktop"
-modelo: "no_confirmado"
-atribucion_modelo: "Identificador exacto no confirmado para esta actualización; atribuciones anteriores conservadas en Git y campos históricos."
-fecha_informe_utc: "2026-11-01T16:21:28Z"
-fecha_importacion_utc: "no-importado"
-estado: "revisado_para_presentar_lote_no_aprobado"
-confianza: "alta en las comprobaciones documentales indicadas; no evaluada en la implantación"
-procedencia_original: "Síntesis nueva; originales y correspondencia de fuentes conservados fuera del lote público"
-relacionados: ["INDICE_MEMORIA.md", "PROTOCOLO_MEMORIA.md", "plantillas/continuidad.md", "informes/codex/2026-11-01T174537Z_codex_continuidad-memoria_7bdd3c0ec74d.md", "revisiones/2026-11-01T174537Z_codex_revision-trazabilidad_2912536ec58b.md"]
-version: "actualizacion-2026-11-06-r1"
-cambios_version: ["Estado publicado y continuidad actual diferenciados", "Tres clases de acceso: público, privado autorizado y restringido local", "Enlace único al estado fechado; historia preservada"]
-sustituye_a: []
-revisado_por: "Agente revisor independiente; herramienta Subagente de Codex; modelo gpt-6-astra; revisión documental, no aprobación humana"
-fecha_revision_utc: "2026-11-06T13:22:48Z"
-fecha_corte_informacion: "2026-11-06T13:13:30Z"
-fuentes: ["https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories", "PROTOCOLO_MEMORIA.md"]
-revisiones_realizadas: [{agente: "revisor_cerebro", herramienta: "Subagente independiente de Codex", modelo: "gpt-6-astra", fecha_utc: "2026-11-01T17:50:42Z", alcance: "Consistencia documental e integridad de este lote; sin aprobación humana ni auditoría completa de anonimización"}]
-aprobacion_humana: "pendiente_para_este_lote; no revoca aprobaciones históricas"
-tipo_documento: "canonico"
-proveedor: "OpenAI"
 herramienta: "Codex desktop"
-fecha_actualizacion_utc: "2026-11-06T13:24:08Z"
-version_preparacion: "4"
-historial_publico: "La versión anterior existe en el commit fijado. Esta actualización es candidata local y requiere nueva aprobación de lista y destino."
-modelo_version_anterior: "gpt-6.1-sol"
-atribucion_modelo_version_anterior: "Modelo declarado por el entorno; evidencia técnica conservada fuera del lote público"
-revisado_por_version_anterior: "IA independiente: revisor_cerebro; modelo gpt-6-astra; no aprobación humana"
-fecha_revision_utc_version_anterior: "2026-11-01T17:50:42Z"
-aprobacion_humana_version_anterior: "pendiente"
-version_anterior_commit: "660149a13eaf7d4d27405f407bbfd6e29bb4be17"
-version_anterior_sha256: "1387ba2f3c7c67a178cd75b893570576c71f228c8fdd7e5dcef6efbacda3dfe1"
-revision_actual: {"reviewer": "Agente revisor independiente", "tool": "Subagente de Codex", "model": "gpt-6-astra", "reviewed_at": "2026-11-06T13:22:48Z", "scope": "Revisión independiente de contenido y procedencia del lote de 13 rutas; contraste de fuentes, notas, catálogo, plantillas de recibos, clasificación y límites; recálculo de huellas y preservación de las tres notas originales. Incluye comprobación de las correcciones solicitadas. Sin ejecución propia de pruebas Linux, observación directa de móviles/Mac ni auditoría completa de anonimización", "record": "Hallazgos relevantes corregidos y comprobados. Sin impedimento material identificado para presentar este lote concreto a aprobación humana. No constituye autorización de publicación, despliegue, migración ni nuevos accesos; tampoco acredita integración completa o sincronización"}
+proveedor: "OpenAI"
+modelo: "no_confirmado"
+atribucion_modelo: "Identificador exacto no confirmado para esta contribución; no sustituye atribuciones históricas."
+fecha_actualizacion_utc: "2026-11-11T16:11:34.843954+00:00"
+fecha_corte_informacion: "2026-11-11T16:11:34.843954+00:00"
+version: "2026-11-11-r239-r3"
+version_anterior_commit: "84fd851548883d45bcf4a4922038e32edf67d671"
+version_anterior_sha256: "c4f16199f83a6b74a1c81e54a10bd100665613ef7e10533a90ed55ffae7e14d4"
+fuentes: ["https://github.com/NovusMotus/proyectos-publicos/blob/84fd851548883d45bcf4a4922038e32edf67d671/cerebro-publico/README.md", "https://github.com/NovusMotus/proyectos-publicos/issues/11", "https://github.com/NovusMotus/proyectos-publicos/pull/12"]
+aprobacion_y_publicacion: "Dependen de la autorización externa y de la PR correspondiente; este texto no las concede."
 ---
 
 # Memoria común de proyectos
@@ -69,11 +49,11 @@ El texto público necesita su propia revisión de divulgación e identificación
 - Complemento privado: destino existente previsto `NovusMotus/cerebro`, sujeto a comprobación de acceso y permisos antes de incorporar nuevas fuentes privadas. Este lote no cambia su visibilidad ni verifica qué proveedores están autorizados.
 - Restringido local: fuera de Git, sincronizaciones compartidas y contextos de proveedores externos; almacenamiento en el nodo local autorizado. Su aislamiento efectivo sigue pendiente de verificación.
 
-El núcleo público anterior ya está publicado en el commit fijado en la cabecera. Esta actualización necesita aprobación nueva. Ningún documento concede accesos privados ni publica sus fuentes por sí mismo. Las aportaciones fechadas conservan su autoría; este lote no incorpora conversaciones completas.
+Los documentos de preparación y sus estados se conservan en el historial fijado en la cabecera. La publicación se acredita por las incorporaciones correspondientes; una cabecera histórica que decía «pendiente» no invalida una publicación posterior. Cada nueva lista y destino requieren su autorización. Este documento no concede accesos ni incorpora conversaciones completas.
 
 ## Continuidad e historial
 
-Se conserva una síntesis vigente por actividad. Cada aportación fechada y cada nueva versión de esa síntesis usa un archivo nuevo, enlaza la anterior y no la borra. Los cuatro informes anteriores v2/v3 de este lote son antecedentes conservados sin cambios; la aportación vigente propuesta figura en el índice.
+Se conserva una síntesis vigente por actividad. Cada aportación fechada y cada nueva versión de esa síntesis usa un archivo nuevo, enlaza la anterior y no la borra. Los informes anteriores se conservan como antecedentes fechados; el índice y los recibos permiten localizar las aportaciones incorporadas y sus revisiones.
 
 README, protocolo e índice son documentos canónicos: pueden actualizarse mediante cambios revisados y un historial de versiones. Las preparaciones anteriores permanecen conservadas localmente y Git conserva las versiones ya publicadas. Las fechas de las aportaciones históricas no se actualizan por revisar estos documentos canónicos.
 
@@ -83,7 +63,7 @@ README, protocolo e índice son documentos canónicos: pueden actualizarse media
 
 ## Índice, decisiones y condiciones de reutilización
 
-La entrada de continuidad vigente es [INDICE_MEMORIA.md](INDICE_MEMORIA.md). El responsable mantiene allí las actividades, su estado y el enlace a la síntesis vigente; este primer índice contiene únicamente la preparación documentada de la memoria, no un inventario completo de todas las actividades.
+La entrada de continuidad vigente es [INDICE_MEMORIA.md](INDICE_MEMORIA.md). El responsable mantiene allí las actividades, su estado y el enlace a la síntesis vigente; el índice no debe confundirse con un inventario completo de todas las actividades o conversaciones.
 
 El formato y ubicación de decisiones se describen en [decisiones/README.md](decisiones/README.md). No se crea una decisión aprobada por rellenar una plantilla.
 
@@ -107,8 +87,16 @@ Los enlaces a los repositorios existentes son referencias de lectura; este lote 
 
 Al empezar, cada agente debe identificar el commit público que consulta, los documentos que leyó y lo que sigue pendiente. Una conexión autorizada al ámbito privado registrará también su versión privada sin revelar su contenido al ámbito público. Tener el mismo commit disponible no demuestra haberlo leído.
 
-El estado fechado y los límites están en [FASE_CODEX_CLAUDE.md](FASE_CODEX_CLAUDE.md). Hay pruebas de lectura y un ensayo sintético de recepción; no acreditan memoria idéntica entre asistentes, recuperación completa de historiales ni sincronización con el PC apagado. Esta actualización documental no instala conectores, servicios o sincronización.
+El estado fechado y los límites están en [FASE_CODEX_CLAUDE.md](FASE_CODEX_CLAUDE.md). Hay pruebas históricas de lectura y ensayos de alcance limitado. El piloto público de noviembre tiene su issue11 y PR12; no acredita memoria idéntica entre asistentes, recuperación completa de historiales ni sincronización con el PC apagado. Esta actualización documental no instala conectores, servicios o sincronización.
 
 ## Visibilidad
 
 Publicar en GitHub permite la lectura por cualquier persona de internet, además de los asistentes. Una carpeta o una rama de un repositorio público no se usa para ocultar datos privados. El ámbito privado debe quedar en otro repositorio con acceso restringido. [Visibilidad de repositorios en GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories).
+
+## Corte de comprobación de noviembre11
+
+La [PR12](https://github.com/NovusMotus/proyectos-publicos/pull/12) consta fusionada el 10 de noviembre de 2026. El depósito de la [issue11](https://github.com/NovusMotus/proyectos-publicos/issues/11) forma parte de ese piloto. La existencia de esos eventos no autoriza nuevas aportaciones, prueba todos los bots o acredita escritura de los chats móviles. El estado y los catorce ámbitos permanecen separados en [FASE_CODEX_CLAUDE.md](FASE_CODEX_CLAUDE.md).
+
+## Portfolio y memoria, destinos relacionados
+
+El plan acordado mantiene tres repositorios de portfolio: `NovusMotus/proyectos-publicos` para código publicable aprobado; `NovusMotus/proyectos-privados` para proyectos reservados y código privado autorizado; y `NovusMotus/portfolio-tesis` para versiones públicas aprobadas de las tesis. `NovusMotus/cerebro` es el complemento privado de esta memoria lógica, con controles propios. No se crean repositorios por cada proyecto ni se hacen públicas sus fuentes por enlazar una tesis. Esta descripción no cambia visibilidades o permisos.
